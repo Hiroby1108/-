@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     private STEP next_step;     // 次のSTEP.
     private float step_timer;   // 経過時間.
     private float break_timer;   // 特定経過時間.
+    
 
     private Rigidbody playerRig;
 

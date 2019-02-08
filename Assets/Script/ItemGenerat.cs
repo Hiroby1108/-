@@ -17,11 +17,11 @@ public class ItemGenerat : MonoBehaviour
 
     [SerializeField, Header("ゴミ生成個数")]
     int numOfTrash = 10;
-    public float NumOfTrash { get { return numOfTrash; } }
+    public int NumOfTrash { get { return numOfTrash; } }
 
     [SerializeField, Header("生物生成個数")]
     int numOfLiving = 10;
-    public float NumOfLiving { get { return numOfLiving; } }
+    public int NumOfLiving { get { return numOfLiving; } }
 
     [SerializeField, Header("活動中心//デフォルトは0,0,0")]
     Vector3 center = new Vector3(0f,0f,0f);
@@ -71,9 +71,5 @@ public class ItemGenerat : MonoBehaviour
     {
         return generatEnd;
     }
-    public List<float> getStatus()
-    {
-        status = new List<float> { range , numOfTrash , numOfLiving };
-        return status;
-    }
+
 }
