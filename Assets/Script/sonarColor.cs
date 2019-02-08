@@ -17,7 +17,7 @@ public class sonarColor : MonoBehaviour
     void Update()
     {
         float thisHeight_def = (255f / 2f) + 
-            (this.transform.parent.transform.position.y-Player.transform.position.y)*(255f/2f)/IG.rangeOut;
+            (this.transform.parent.transform.position.y-Player.transform.position.y)*(255f/2f)/IG.Range;
 
         float thisHeight = Mathf.InverseLerp(0f , 255f , thisHeight_def);
         this.GetComponent<Renderer>().material.color = new Color(thisHeight, thisHeight, thisHeight,255);

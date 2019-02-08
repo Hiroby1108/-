@@ -13,20 +13,20 @@ public class ItemGenerat : MonoBehaviour
 
     [SerializeField, Header("拡散範囲(プレイエリアの大きさ)"), Tooltip("拡散範囲を囲うようにプレイエリアを設定")]
     float range = 50;
+    public float Range{ get { return range; } }
 
     [SerializeField, Header("ゴミ生成個数")]
     int numOfTrash = 10;
+    public float NumOfTrash { get { return numOfTrash; } }
 
     [SerializeField, Header("生物生成個数")]
     int numOfLiving = 10;
+    public float NumOfLiving { get { return numOfLiving; } }
 
     [SerializeField, Header("活動中心//デフォルトは0,0,0")]
     Vector3 center = new Vector3(0f,0f,0f);
-
-    [System.NonSerialized]
-    public float rangeOut;
-
     
+    private List<float> status;
     private bool generatEnd;
     private GameObject PlayArea;
     private GameObject SafetyArea;
@@ -38,7 +38,6 @@ public class ItemGenerat : MonoBehaviour
         PlayArea = this.transform.GetChild(0).gameObject;
         SafetyArea = this.transform.GetChild(0).GetChild(0).gameObject;
         this.transform.position = center;
-        rangeOut = range;
         
         Generate(numOfTrash, trashRig);//ゴミ生成
         Generate(numOfLiving, livingRig);//生き物生成
@@ -71,5 +70,10 @@ public class ItemGenerat : MonoBehaviour
     public bool getGeneratEnd()
     {
         return generatEnd;
+    }
+    public List<float> getStatus()
+    {
+        status = new List<float> { range , numOfTrash , numOfLiving };
+        return status;
     }
 }

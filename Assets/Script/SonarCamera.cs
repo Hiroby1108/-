@@ -18,7 +18,7 @@ public class SonarCamera : MonoBehaviour
     void Update()
     {
         Vector3 thisPositioon = Player.transform.position;
-        thisPositioon.y = IG.rangeOut + 100f;
+        thisPositioon.y = IG.Range + 100f;
         this.transform.position = thisPositioon;
     }
 }
