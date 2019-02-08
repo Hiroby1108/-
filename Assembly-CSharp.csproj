@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AB72EF76-E58F-BF29-8784-521BE6A469E0}</ProjectGuid>
+    <ProjectGuid>{2ECBFAFE-0371-5C74-5972-794DB458102D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,22 +66,23 @@
     <Compile Include="Assets\Script\SonarCamera.cs" />
     <Compile Include="Assets\Script\sonarColor.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
+    <Compile Include="Assets\Wakis\GameRule.cs" />
     <None Include="Assets\Materials\standard_cullOff.shader" />
     <None Include="Assets\Materials\NewSurfaceShader.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -285,13 +286,13 @@
       <HintPath>C:/Program Files/Unity3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/1723085/Documents/trash_splash/trash_splash/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity3/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -25,47 +25,51 @@ public class ItemGenerat : MonoBehaviour
 
     [System.NonSerialized]
     public float rangeOut;
+
+    
+    private bool generatEnd;
     private GameObject PlayArea;
     private GameObject SafetyArea;
 
     // Start is called before the first frame update
     void Start()
     {
+        generatEnd = false;
         PlayArea = this.transform.GetChild(0).gameObject;
         SafetyArea = this.transform.GetChild(0).GetChild(0).gameObject;
         this.transform.position = center;
         rangeOut = range;
-
-        if (trashRig.Count <= 0) numOfTrash = 0;//ゴミが未設定
-        if (livingRig.Count <= 0) numOfLiving = 0;//私物が未設定
-
-        //ゴミ生成
-        for (int LP = 0; LP < numOfTrash; LP++)
-        {
-            int x = (int)Random.Range(0, trashRig.Count);
-            if (trashRig[x] == null) continue;
-            Instantiate(trashRig[x],//
-                new Vector3(Random.Range(-range,range), Random.Range(-range, range), Random.Range(-range, range)),//
-                 Quaternion.Euler(0f,0f,0f));
-        }
         
-        //生物生成
-        for (int LP = 0; LP < numOfLiving; LP++)
-        {
-            int x = (int)Random.Range(0, livingRig.Count);
-            if (livingRig[x]==null) continue;
-            Instantiate(livingRig[x],//
-                new Vector3(Random.Range(-range, range), Random.Range(-range, range), Random.Range(-range, range)),//
-                 Quaternion.Euler(0f, 0f, 0f));
-        }
+        Generate(numOfTrash, trashRig);//ゴミ生成
+        Generate(numOfLiving, livingRig);//生き物生成
+        
         if (PlayArea != null) PlayArea.transform.localScale = new Vector3(range, range, range) * 5f;
         if (SafetyArea != null) SafetyArea.transform.localScale = new Vector3(1f, 1f, 1f)*3.5f /5f;
-        //Debug.Log(PlayArea.name +":"+SafetyArea.name);
+
+        generatEnd = true;
+        Debug.Log("Generated Complete");
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    private void Generate(int i_num, List<Rigidbody> listRig)
+    {
+        if (listRig.Count <= 0) return;//未設定時
+        for (int LP = 0; LP < i_num; LP++)
+        {
+            int x = (int)Random.Range(0, listRig.Count);
+            if (listRig[x] == null) continue;
+            Instantiate(listRig[x],//
+                new Vector3(Random.Range(-range, range), Random.Range(-range, range), Random.Range(-range, range)),//
+                 Quaternion.Euler(0f, 0f, 0f));
+        }
+    }
+    public bool getGeneratEnd()
+    {
+        return generatEnd;
     }
 }
