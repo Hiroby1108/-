@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameRuleAssist.cs" />
     <Compile Include="Assets\Script\CoordinateFunction.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
