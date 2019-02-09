@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    
     public enum STEP
     {   // 状況STEP.
         NONE = -1,
@@ -30,9 +30,18 @@ public class PlayerController : MonoBehaviour
     private float speedRot;
     [SerializeField,Header("ペナルティタイム(秒)"), Tooltip("コースアウト時の操作不能時間")]
     private float penaltyTime;
+    
+    private attachTest AttachScript;
+
 
     void Start()
     {
+        if (this.GetComponent<attachTest>())
+        {
+            AttachScript = this.GetComponent<attachTest>();
+            Debug.Log("OK");
+        }
+        
         next_step = STEP.SET;    // 最初はSETから.
         playerRig = this.GetComponent<Rigidbody>();
         this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
@@ -110,10 +119,12 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Area")
         {
+            
             if (other.gameObject.name == "SafetyArea")
             {
                 break_timer = step_timer;

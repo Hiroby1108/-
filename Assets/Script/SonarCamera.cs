@@ -11,7 +11,7 @@ public class SonarCamera : MonoBehaviour
     void Start()
     {
         IG = GameObject.Find("ItemGenerator").GetComponent<ItemGenerat>();
-        Player = GameObject.Find("Splasher_Mouth");
+        Player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
