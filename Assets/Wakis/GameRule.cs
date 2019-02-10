@@ -34,12 +34,17 @@ public class GameRule : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(NextSceneName);
         IG = GameObject.Find("ItemGenerator").GetComponent<ItemGenerat>();
         n_Trash = IG.NumOfTrash;
         n_Living = IG.NumOfLiving;
         player = GameObject.Find("Player").GetComponent<PlayerController>();
         next_step = STEP.SET;    // 最初はSETから.
-
+        if (NextSceneName=="")
+        {
+            NextSceneName = SceneManager.GetActiveScene().name;
+            Debug.Log(NextSceneName);
+        }
         OneLoad = true;
     }
 
