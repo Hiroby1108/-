@@ -23,7 +23,7 @@ public class tutorial : MonoBehaviour
     void Update()
     {
         Vector3 r = cam.gameObject.transform.eulerAngles;
-        Debug.Log(r);
+
         if (r.x > 180f)
             r.x = r.x - 360f;
 
@@ -35,7 +35,6 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-                Debug.Log("unko");
                 Light();
                 i = 1;
 
@@ -48,7 +47,6 @@ public class tutorial : MonoBehaviour
                 if (!b)
                 {
                     b = true;
-                    Debug.Log("unko2");
                     Left();
                     i = 2;
                 }
@@ -61,7 +59,6 @@ public class tutorial : MonoBehaviour
                 if (!c)
                 {
                     c = true;
-                    Debug.Log("unko3");
                     Down();
                     i = 3;
                 }
@@ -73,7 +70,6 @@ public class tutorial : MonoBehaviour
                 if (!d)
                 {
                     d = true;
-                    Debug.Log("unko4");
                     trash();
                 }
             }
@@ -94,5 +90,13 @@ public class tutorial : MonoBehaviour
     void trash()
     {
         myText.text = "ゴミを回収してください";
+    }
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "Trash")
+        {
+            myText.text = "ゴミOK";
+            Debug.Log("unko");
+        }
     }
 }
