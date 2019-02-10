@@ -6,20 +6,22 @@ using UnityEngine.UI;
 public class tutorial : MonoBehaviour
 {
     Text myText;
-
+   public GameObject cam;
+    int a=0;
     // Start is called before the first frame update
     void Start()
     {
-        myText = GetComponentInChildren<Text>();//UIのテキストの取得の仕方
+        myText = GetComponentInChildren<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        Vector3 rot = gameObject.transform.eulerAngles;
+        if (rot.x<-40)
         {
-            Debug.Log("UpArrow key was pressed.");
-            myText.text = "→を入力してください";
+            Debug.Log("unko");
+            call();
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
@@ -33,5 +35,9 @@ public class tutorial : MonoBehaviour
         {
             myText.text = "↑を入力してください";
         }
+    }
+    void call()
+    {
+            myText.text = "→を入力してください";
     }
 }
