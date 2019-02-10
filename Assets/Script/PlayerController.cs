@@ -26,12 +26,16 @@ public class PlayerController : MonoBehaviour
     private float speedRot;
     [SerializeField,Header("ペナルティタイム(秒)"), Tooltip("コースアウト時の操作不能時間")]
     private float penaltyTime;
-    
+
+    private IController ICon;//利用するControlタイプ
+    private string ControlType = "Default";//Controlタイプの指定
+
     void Start()
     {
         next_step = STEP.SET;    // 最初はSETから.
         this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-        OutCompass();
+        OutCompass();//ゲーム内コンパスの利用
+        selectType();//Controlタイプの取得
     }
 
     void Update()
@@ -60,8 +64,24 @@ public class PlayerController : MonoBehaviour
                 Vector3 pos = transform.position;
                 Vector3 rot = transform.eulerAngles;
                 pos += transform.forward * Time.deltaTime * speed;
-                rot.y += Input.GetAxis("Horizontal") * Time.deltaTime * speedRot;
-                rot.x -= Input.GetAxis("Vertical") * Time.deltaTime * speedRot;
+                switch (ControlType)
+                {
+                    case "DebugMouseRot":
+                        rot.y += ICon.rotY() * Time.deltaTime * speedRot;
+                        rot.x -= ICon.rotX() * Time.deltaTime * speedRot;
+                        break;
+                    /*ココに新しいコントローラーの仕方を打ち込んでください*/
+                    /*case "Hogehoge"://<-"Hogehoge"に新しく作ったScript名を入れる
+                          rot.y += ICon.rotY() * Time.deltaTime * speedRot;
+                          rot.x -= ICon.rotX() * Time.deltaTime * speedRot;
+                          break;*/
+                    case "Default":
+                    default:
+                        rot.y += Input.GetAxis("Horizontal") * Time.deltaTime * speedRot;
+                        rot.x -= Input.GetAxis("Vertical") * Time.deltaTime * speedRot;
+                        break;
+                }
+        
                 if (rot.x > 180f) rot.x -= 360f;
                 if (-180f < rot.x && rot.x < -89f)  rot.x = -89f;
                 else if (180f > rot.x && rot.x > 89f) rot.x = 89f;
@@ -140,6 +160,19 @@ public class PlayerController : MonoBehaviour
         if (Y > 0) Y -= 180f;
         else Y += 180;
         return new Vector3(-X, Y, 0);
+    }
+
+    private void selectType()
+    {
+        Component[] components = GetComponents<Component>();
+        foreach (var con in components)
+        {
+            if (con is IController)
+            {
+                ICon = (IController)con;
+                ControlType = con.GetType().Name;
+            }
+        }
     }
     
 }
