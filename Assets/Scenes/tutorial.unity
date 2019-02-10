@@ -248,19 +248,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1964920575343525931, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
---- !u!1 &464950174 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3375389807495250958, guid: f777c6b2f3125934fb224e15a85942c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 440473563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &468372946
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c6dbd303960fa458ee6d4c210bf7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 464950174}
 --- !u!1 &1014152447
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,22 +534,22 @@ PrefabInstance:
     - target: {fileID: 7815076763211096332, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: numOfLiving
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7815076763211096332, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: range
-      value: 50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7815076763211096332, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: numOfTrash
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2252075049484069409, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5725a0092b8f7e4a906b22ed498696b, type: 3}
