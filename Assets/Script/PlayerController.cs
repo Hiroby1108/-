@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
     public enum STEP
     {   // 状況STEP.
         NONE = -1,
@@ -17,9 +16,6 @@ public class PlayerController : MonoBehaviour
     private STEP next_step;     // 次のSTEP.
     private float step_timer;   // 経過時間.
     private float break_timer;   // 特定経過時間.
-    
-
-    private Rigidbody playerRig;
 
     private Vector3 Defrot;
     private Vector3 Atrot;
@@ -31,19 +27,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField,Header("ペナルティタイム(秒)"), Tooltip("コースアウト時の操作不能時間")]
     private float penaltyTime;
     
-    private attachTest AttachScript;
-
-
     void Start()
     {
-        if (this.GetComponent<attachTest>())
-        {
-            AttachScript = this.GetComponent<attachTest>();
-            Debug.Log("OK");
-        }
-        
         next_step = STEP.SET;    // 最初はSETから.
-        playerRig = this.GetComponent<Rigidbody>();
         this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
         OutCompass();
     }
@@ -103,21 +89,11 @@ public class PlayerController : MonoBehaviour
                 {
                     break_timer = step_timer;
                 }
-                Debug.Log(breaker+":" +break_timer);
                 this.transform.position = pos;
                 this.transform.eulerAngles = rot;
                 break;
         }
         
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        
-        if (other.gameObject.tag == "Trash")
-        {
-            Destroy(other.gameObject);
-        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -144,7 +120,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OutCompass()
+    private void OutCompass()//Compass機能の生成
     {
         GameObject Compass= GameObject.CreatePrimitive(PrimitiveType.Cube);
         Compass.GetComponent < BoxCollider >().enabled = false;
@@ -152,7 +128,7 @@ public class PlayerController : MonoBehaviour
         Compass.name = "Compass";
     }
     
-    private Vector3 CallCompass()
+    private Vector3 CallCompass()//Compass機能の利用
     {
         GameObject Compass = GameObject.Find("Compass");
         Compass.transform.LookAt(this.gameObject.transform);
