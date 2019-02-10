@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Assets\attachTest.cs" />
     <Compile Include="Assets\GameRuleAssist.cs" />
+    <Compile Include="Assets\PlayeGetItem.cs" />
+    <Compile Include="Assets\ResultPlint.cs" />
     <Compile Include="Assets\Script\CoordinateFunction.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
@@ -70,7 +72,6 @@
     <Compile Include="Assets\Script\tutorial.cs" />
     <Compile Include="Assets\Wakis\GameRule.cs" />
     <None Include="Assets\Materials\standard_cullOff.shader" />
-    <None Include="Assets\Materials\NewSurfaceShader.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/1723085/Desktop/2019TGS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
