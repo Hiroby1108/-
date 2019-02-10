@@ -6,8 +6,13 @@ using UnityEngine.UI;
 public class tutorial : MonoBehaviour
 {
     Text myText;
-   public GameObject cam;
-    int a=0;
+    public GameObject cam;
+    bool a = false;
+    bool b = false;
+    bool c = false;
+    bool d = false;
+
+    int i = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,29 +25,74 @@ public class tutorial : MonoBehaviour
         Vector3 r = cam.gameObject.transform.eulerAngles;
         Debug.Log(r);
         if (r.x > 180f)
-            r.x = r.x-360f;
-        if (r.x>-0.1f)
+            r.x = r.x - 360f;
+
+        if (r.y > 180f)
+            r.y = r.y - 360f;
+
+        if (r.x < -40f)
         {
-            Debug.Log("unko");
-            call();
+            if (!a)
+            {
+                a = true;
+                Debug.Log("unko");
+                Light();
+                i = 1;
+
+            }
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (i == 1)
         {
-            myText.text = "←を入力してください";
+            if (r.y > 55f)
+            {
+                if (!b)
+                {
+                    b = true;
+                    Debug.Log("unko2");
+                    Left();
+                    i = 2;
+                }
+            }
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (i == 2)
         {
-            myText.text = "↓を入力してください";
+            if (r.y < -55f)
+            {
+                if (!c)
+                {
+                    c = true;
+                    Debug.Log("unko3");
+                    Down();
+                    i = 3;
+                }
+            }
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            myText.text = "↑を入力してください";
+        if (i == 3) {
+            if (r.x > 45f)
+            {
+                if (!d)
+                {
+                    d = true;
+                    Debug.Log("unko4");
+                    trash();
+                }
+            }
         }
     }
-    void call()
+    void Light()
     {
-            myText.text = "→を入力してください";
-        a = 2;
-
+        myText.text = "→を入力してください";       
+    }
+    void Left()
+    {
+        myText.text = "←を入力してください";
+    }
+    void Down()
+    {
+        myText.text = "↓を入力してください";
+    }
+    void trash()
+    {
+        myText.text = "ゴミを回収してください";
     }
 }
