@@ -17,8 +17,11 @@ public class tutorial : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 rot = gameObject.transform.eulerAngles;
-        if (rot.x<-40)
+        Vector3 r = cam.gameObject.transform.eulerAngles;
+        Debug.Log(r);
+        if (r.x > 180f)
+            r.x = r.x-360f;
+        if (r.x>-0.1f)
         {
             Debug.Log("unko");
             call();
@@ -39,5 +42,7 @@ public class tutorial : MonoBehaviour
     void call()
     {
             myText.text = "→を入力してください";
+        a = 2;
+
     }
 }
