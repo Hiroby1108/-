@@ -60,10 +60,8 @@
      <Compile Include="Assets\Script\CoordinateFunction.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
-     <Compile Include="Assets\Script\PlayerTutorial.cs" />
      <Compile Include="Assets\Script\SonarCamera.cs" />
      <Compile Include="Assets\Script\sonarColor.cs" />
-     <Compile Include="Assets\Script\Title\TitleText.cs" />
      <Compile Include="Assets\Script\tutorial.cs" />
      <Compile Include="Assets\Wakis\GameRule.cs" />
      <None Include="Assets\Materials\standard_cullOff.shader" />
