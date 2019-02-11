@@ -27,7 +27,7 @@ public class GameRule : MonoBehaviour
 
     [SerializeField, Header("残してよい量:片方は必ず0"),Tooltip("Dif Leftは差(個)(何個残せる)")]
     private int difLeft=0;
-    [SerializeField, Tooltip("Rat Leftは割合(%)(何%残せる-切り捨て)")]
+    [SerializeField, Range(0, 100),Tooltip("Rat Leftは割合(%)(何%残せる-切り捨て)")]
     private float ratLeft=0;
 
     private int leftOver;

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\AddOunliner.cs" />
     <Compile Include="Assets\Script\CoordinateFunction.cs" />
     <Compile Include="Assets\Script\DebugMouseRot.cs" />
+    <Compile Include="Assets\Script\GameRule.cs" />
     <Compile Include="Assets\Script\IController.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
@@ -76,7 +77,8 @@
     <Compile Include="Assets\Script\TimerController.cs" />
     <Compile Include="Assets\Script\Title\TitleText.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
-    <Compile Include="Assets\Wakis\GameRule.cs" />
+    <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
+    <Compile Include="Assets\Wakis\prefabs_Memo_Editor.cs" />
     <None Include="Assets\Materials\standard_cullOff.shader" />
     <None Include="Assets\Materials\Outliner.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">

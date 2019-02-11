@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextSceneName: 
   limitTime: 100
+  difLeft: 0
+  ratLeft: 0
 --- !u!114 &999863468741668357
 MonoBehaviour:
   m_ObjectHideFlags: 0
