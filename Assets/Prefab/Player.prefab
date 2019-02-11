@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 1964920575343525931}
   - component: {fileID: 50689627214168664}
   - component: {fileID: 5885702228143350091}
+  - component: {fileID: 3012313695677454137}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -235,6 +236,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sensitivity: 0.1
+--- !u!114 &3012313695677454137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3375389807495250958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ea8fd7763ea284296d2cac6c7cd837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 7
+  note: "PlayerController\u306F\u30C7\u30D5\u30A9\u30EB\u30C8\u3067\u306F\u5341\u5B57\u30AD\u30FC\u64CD\u4F5C\n\u65B0\u3057\u3044\u64CD\u4F5C\u65B9\u6CD5\u3092\u8FFD\u52A0\u3059\u308B\u3068\u304D\u306F(Interface)IController\u3092\u7D99\u627F\u3057\u305FScript\u3092\u4F5C\u3063\u3066Pulayer\u306BAddcomponent\u3059\u308B\u3053\u3068\nDebugMouseRot\u3092\u53C2\u8003\u306B\u3001PlayerController\u306E\u4E2D\u3092\u898B\u306A\u304C\u3089\u4F5C\u3063\u3066\u4E0B\u3055\u3044"
 --- !u!1 &3940882787271615591
 GameObject:
   m_ObjectHideFlags: 0
