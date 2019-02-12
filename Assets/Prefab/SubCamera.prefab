@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7840168307469755553}
   - component: {fileID: 7840168307469755552}
   - component: {fileID: 7840168307469755555}
-  - component: {fileID: 7840168307469755558}
   - component: {fileID: 341134864561606097}
+  - component: {fileID: 7950620640096542083}
   m_Layer: 0
   m_Name: SubCamera
   m_TagString: Untagged
@@ -84,18 +84,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7840168307469755554}
   m_Enabled: 1
---- !u!114 &7840168307469755558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7840168307469755554}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0972505829a97a4a88687ad278b4e17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &341134864561606097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,3 +98,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameTag: 7
   note: "\u3053\u306E\u30AB\u30E1\u30E9\u306E\u8A2D\u5B9A\u3092\u4F7F\u3046\u3068Sonar\u3068\u30D7\u30EC\u30A4\u30E4\u30FC\u3060\u3051\u304C\u6620\u308B"
+--- !u!114 &7950620640096542083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840168307469755554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca01fd638defcfb46bb95d09348895f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonarCycle: 10
+  sonarDelay: 10

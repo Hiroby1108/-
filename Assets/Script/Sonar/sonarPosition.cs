@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameRuleAssist : MonoBehaviour
+public class sonarPosition : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,6 +13,6 @@ public class GameRuleAssist : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
 }
