@@ -70,7 +70,8 @@ public class PlayerController : MonoBehaviour
                         rot.y += ICon.rotY() * Time.deltaTime * speedRot;
                         rot.x -= ICon.rotX() * Time.deltaTime * speedRot;
                         break;
-                    /*ココに新しいコントローラーの仕方を打ち込んでください*/
+                    /*ココに新しいコントローラーの仕方を打ち込んでください
+                     <IController>インターフェースを使うこと*/
                     /*case "Hogehoge"://<-"Hogehoge"に新しく作ったScript名を入れる
                           rot.y += ICon.rotY() * Time.deltaTime * speedRot;
                           rot.x -= ICon.rotX() * Time.deltaTime * speedRot;
@@ -164,13 +165,14 @@ public class PlayerController : MonoBehaviour
 
     private void selectType()
     {
-        Component[] components = GetComponents<Component>();
+        IController[] components = GetComponents<IController>();
         foreach (var con in components)
         {
             if (con is IController)
             {
                 ICon = (IController)con;
-                ControlType = con.GetType().Name;
+                float s = ICon.rotX();
+                if(ICon.reActive()) ControlType = con.GetType().Name;
             }
         }
     }

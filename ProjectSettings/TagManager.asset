@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Area
   - Trash
+  - Living
   layers:
   - Default
   - TransparentFX

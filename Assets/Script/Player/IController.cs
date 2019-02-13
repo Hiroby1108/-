@@ -4,6 +4,7 @@ using UnityEngine;
 
 public interface IController 
 {
+    bool reActive();
     float rotX();
     float rotY();
     float openMouth();

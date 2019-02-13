@@ -52,6 +52,14 @@ public class DebugMouseRot : MonoBehaviour, IController
     {
         return m;
     }
+    public bool reActive()
+    {
+        if (this.GetComponent<DebugMouseRot>().enabled)
+        {
+            return true;
+        }
+        return false;
+    }
     
 
 }

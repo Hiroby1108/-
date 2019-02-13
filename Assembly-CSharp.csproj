@@ -60,23 +60,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\attachTest.cs" />
-    <Compile Include="Assets\GameRuleAssist.cs" />
-    <Compile Include="Assets\PlayeGetItem.cs" />
-    <Compile Include="Assets\ResultPlint.cs" />
     <Compile Include="Assets\Script\AddOunliner.cs" />
-    <Compile Include="Assets\Script\CoordinateFunction.cs" />
-    <Compile Include="Assets\Script\DebugMouseRot.cs" />
-    <Compile Include="Assets\Script\IController.cs" />
+    <Compile Include="Assets\Script\GameRule.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
-    <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\LookForPlayer.cs" />
+    <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
+    <Compile Include="Assets\Script\Player\IController.cs" />
+    <Compile Include="Assets\Script\Player\PlayeGetItem.cs" />
+    <Compile Include="Assets\Script\Player\PlayerController.cs" />
     <Compile Include="Assets\Script\PlayerTutorial.cs" />
-    <Compile Include="Assets\Script\SonarCamera.cs" />
-    <Compile Include="Assets\Script\sonarColor.cs" />
+    <Compile Include="Assets\Script\ResultPlint.cs" />
+    <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
+    <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
+    <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
     <Compile Include="Assets\Script\TimerController.cs" />
     <Compile Include="Assets\Script\Title\TitleText.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
-    <Compile Include="Assets\Wakis\GameRule.cs" />
+    <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
     <None Include="Assets\Materials\standard_cullOff.shader" />
     <None Include="Assets\Materials\Outliner.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
