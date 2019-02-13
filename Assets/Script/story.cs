@@ -6,24 +6,27 @@ using UnityEngine.UI;
 
 public class story : MonoBehaviour
 {
-         Text Story;
-         Text Score;
+
+    Text Story;
+         
    public GameObject rute;
+
     void Start()
     {
         Story = GameObject.Find("Story").GetComponentInChildren<Text>();
-        Score = GameObject.Find("Score").GetComponentInChildren<Text>();
+
         Story.GetComponent<Text>().enabled = false;
+        rute.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        Invoke("call", 2.0f);
+        Invoke("call", 4.0f);
     }
     void call()
     {
-        
         Story.GetComponent<Text>().enabled = true;
-        gameObject.SetActive(true);
-    }
+        rute.gameObject.SetActive(true);
+
+             }
 }
