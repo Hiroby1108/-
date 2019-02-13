@@ -13,6 +13,8 @@ public class tutorial : MonoBehaviour
     bool d = false;
 
     int i = 0;
+    public float time = 5f;
+    private float outTime = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,7 @@ public class tutorial : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        outTime += Time.deltaTime;
         Vector3 r = cam.gameObject.transform.eulerAngles;
         Debug.Log(r);
         if (r.x > 180f)
@@ -56,7 +59,7 @@ public class tutorial : MonoBehaviour
         }
         if (i == 2)
         {
-            if (r.y < -55f)
+            if (r.y < -5f)
             {
                 if (!c)
                 {
@@ -67,7 +70,8 @@ public class tutorial : MonoBehaviour
                 }
             }
         }
-        if (i == 3) {
+        if (i == 3)
+        {
             if (r.x > 45f)
             {
                 if (!d)
@@ -81,18 +85,23 @@ public class tutorial : MonoBehaviour
     }
     void Light()
     {
-        myText.text = "→を入力してください";       
+        myText.text = "右を向いてください";
     }
     void Left()
     {
-        myText.text = "←を入力してください";
+        myText.text = "左を向いてください";
     }
     void Down()
     {
-        myText.text = "↓を入力してください";
+        myText.text = "下を向いてください";
     }
     void trash()
     {
-        myText.text = "ゴミを回収してください";
+        myText.text = "ゴミを3個集めてください";
+        Invoke("OutText", 2.0f);
+    }
+    void OutText()
+    {
+        myText.GetComponent<Text>().enabled = false;
     }
 }
