@@ -101,6 +101,9 @@ public class GameRule : MonoBehaviour
             case STEP.FINISH:
                 SceneManager.LoadScene(NextSceneName);
                 break;
+            case STEP.GAMEOVER:
+                SceneManager.LoadScene(NextSceneName);
+                break;
         }
     }
 
