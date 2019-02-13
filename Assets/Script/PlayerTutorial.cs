@@ -14,7 +14,8 @@ public class PlayerTutorial : MonoBehaviour
     void Start()
     {
         myText = GameObject.Find("Text").GetComponentInChildren<Text>();
-
+        //NextSceneName = SceneManager.GetActiveScene().name;
+      //  NextSceneName
     }
 
     // Update is called once per frame
@@ -26,7 +27,6 @@ public class PlayerTutorial : MonoBehaviour
     {
         if (col.gameObject.tag == "Trash")
         {
-            Debug.Log("unko");
             i++;
         }
         if (i == 3)

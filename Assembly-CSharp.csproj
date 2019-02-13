@@ -68,6 +68,7 @@
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
+     <Compile Include="Assets\Script\TrashCounter.cs" />
      <Compile Include="Assets\Script\tutorial.cs" />
      <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
      <None Include="Assets\Materials\standard_cullOff.shader" />
