@@ -66,6 +66,7 @@
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
+     <Compile Include="Assets\Script\story.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
      <Compile Include="Assets\Script\TrashCounter.cs" />
