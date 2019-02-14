@@ -9,6 +9,14 @@ public class PlayeGetItem : MonoBehaviour
     private static Dictionary<string, int> TrashList = new Dictionary<string, int>() { };
     public static Dictionary<string, int> getTrashList() { return TrashList; }
 
+    /*
+     * foreach (KeyValuePair<string, int> 変数 in PlayeGetItem.指定処置){処理を書く}
+     * で読み込むことが出来る(指定処理は"getTrashList()"と"getLivingList()")
+     * Dictionary<TKey,TValue>「* https://docs.microsoft.com/ja-jp/dotnet/api/system.collections.generic.dictionary-2?view=netframework-4.7.2」
+     * KeyValuePair<TKey,TValue>「* https://docs.microsoft.com/ja-jp/dotnet/api/system.collections.generic.keyvaluepair-2?view=netframework-4.7.2」
+     * 
+     */
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,3 +59,13 @@ public class PlayeGetItem : MonoBehaviour
         }
     }
 }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
