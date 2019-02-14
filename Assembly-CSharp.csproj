@@ -78,8 +78,21 @@
     <Compile Include="Assets\Script\Title\TitleText.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
     <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\Water.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\Water\Water\Scripts\WaterTile.cs" />
     <None Include="Assets\Materials\standard_cullOff.shader" />
+    <None Include="Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Water\DO_NOT_WORK_IN_VR.txt" />
     <None Include="Assets\Materials\Outliner.shader" />
+    <None Include="Assets\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/1723099/Documents/gametool/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
