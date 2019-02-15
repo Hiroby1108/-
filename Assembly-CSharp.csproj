@@ -63,6 +63,8 @@
     <Compile Include="Assets\Script\AddOunliner.cs" />
     <Compile Include="Assets\Script\EventSystem.cs" />
     <Compile Include="Assets\Script\GameRule.cs" />
+    <Compile Include="Assets\Script\IrukaMove.cs" />
+    <Compile Include="Assets\Script\IrukaTime.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
     <Compile Include="Assets\Script\LookForPlayer.cs" />
     <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
@@ -92,6 +94,7 @@
     <None Include="Assets\Materials\standard_cullOff.shader" />
     <None Include="Assets\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Water\DO_NOT_WORK_IN_VR.txt" />
+    <None Include="Assets\Materials\ruteCool.shader" />
     <None Include="Assets\Materials\Outliner.shader" />
     <None Include="Assets\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Water\Water4\Shaders\WaterInclude.cginc" />

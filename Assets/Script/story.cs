@@ -16,7 +16,7 @@ public class story : MonoBehaviour
 
         Story.GetComponent<Text>().enabled = false;
         rute.gameObject.SetActive(false);
-        Invoke("call", 2.0f);//ここの秒数をいじるとイベント発生時間が変わる
+        Invoke("call", 15.0f);//ここの秒数をいじるとイベント発生時間が変わる
     }
 
     void Update()
