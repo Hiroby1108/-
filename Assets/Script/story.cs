@@ -16,7 +16,7 @@ public class story : MonoBehaviour
 
         Story.GetComponent<Text>().enabled = false;
         rute.gameObject.SetActive(false);
-        Invoke("call", 4.0f);//ここの秒数をいじるとイベント発生時間が変わる
+        Invoke("call", 2.0f);//ここの秒数をいじるとイベント発生時間が変わる
     }
 
     void Update()
@@ -28,6 +28,6 @@ public class story : MonoBehaviour
         Story.GetComponent<Text>().enabled = true;
         rute.gameObject.SetActive(true);
         Destroy(Story, 6);//文字消す
-        a = true;
+        EventSystem.a = true;
     }
 }

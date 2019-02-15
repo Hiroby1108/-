@@ -40,22 +40,24 @@ public class EventSystem : MonoBehaviour
 
     public GameObject rute;
 
-    bool a = false;
+    public static bool a = false;
     void Start()
     {
         rute.gameObject.SetActive(false);
+        Debug.Log(a);
     }
 
     void Update()
     {
-        if (!a)
+        if (a==true)
             if (rute.gameObject.activeSelf == true)
             {
-                gameObject.transform.position = new Vector3(x, y, z);
-                gameObject.transform.localScale = new Vector3(xs, ys, Zs);
+                //gameObject.transform.position = new Vector3(x, y, z);
+                //gameObject.transform.localScale = new Vector3(xs, ys, Zs);
                 Appearance(numOfEventTrash, trash);//ゴミ生成
                 Appearance(numOfEventLiving, living);//生き物生成
-                a = true;
+                a = false;
+                Debug.Log("ok");
             }
     }
     private void Appearance(int i_num, List<Rigidbody> list)
@@ -66,7 +68,8 @@ public class EventSystem : MonoBehaviour
             int x = (int)Random.Range(0, list.Count);
             if (list[x] == null) continue;
             Instantiate(list[x],//
-                    new Vector3(Random.Range(-X - Xs, X + Xs), Random.Range(-Y - Ys, Y + Ys), Random.Range(-Z - Zs, Z - Zs)),//ここの値を変えれば乱数でゴミ出ますが電池の都合上できなかったのでだれかお願いします
+                  //new Vector3(Random.Range(-X - Xs, X + Xs), Random.Range(-Y - Ys, Y + Ys), Random.Range(-Z - Zs, Z - Zs)),//ここの値を変えれば乱数でゴミ出ますが電池の都合上できなかったのでだれかお願いします
+                  new Vector3(Random.Range(-X , Xs), Random.Range(-Y, Ys), Random.Range(-Z, Zs)),
                      Quaternion.Euler(0f, 0f, 0f));
             Debug.Log("unko");
         }
