@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\AddOunliner.cs" />
+    <Compile Include="Assets\Script\EventSystem.cs" />
     <Compile Include="Assets\Script\GameRule.cs" />
     <Compile Include="Assets\Script\ItemGenerat.cs" />
     <Compile Include="Assets\Script\LookForPlayer.cs" />
@@ -74,8 +75,10 @@
     <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
     <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
     <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
+    <Compile Include="Assets\Script\story.cs" />
     <Compile Include="Assets\Script\TimerController.cs" />
     <Compile Include="Assets\Script\Title\TitleText.cs" />
+    <Compile Include="Assets\Script\TrashCounter.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
     <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
     <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
