@@ -83,6 +83,8 @@
     <Compile Include="Assets\Script\TrashCounter.cs" />
     <Compile Include="Assets\Script\tutorial.cs" />
     <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
+    <Compile Include="Assets\Wakis\TrackerController.cs" />
+    <Compile Include="Assets\Wakis\TrackerGetter.cs" />
     <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
     <Compile Include="Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
     <Compile Include="Assets\Water\Water\Scripts\MeshContainer.cs" />
