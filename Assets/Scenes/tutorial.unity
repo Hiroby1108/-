@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59820a2696d49c04ca6eec0b4b2514e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextSceneName: Title
+  NextSceneName: TimeAttack
 --- !u!4 &1662939043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3375389807495250952, guid: f777c6b2f3125934fb224e15a85942c9,
