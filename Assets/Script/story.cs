@@ -9,6 +9,7 @@ public class story : MonoBehaviour
     bool a = false;
     Text Story;
     public GameObject rute;
+    public float storyTimer = 15.0f;
 
     void Start()
     {
@@ -16,7 +17,7 @@ public class story : MonoBehaviour
 
         Story.GetComponent<Text>().enabled = false;
         rute.gameObject.SetActive(false);
-        Invoke("call", 15.0f);//ここの秒数をいじるとイベント発生時間が変わる
+        Invoke("call", storyTimer);//ここの秒数をいじるとイベント発生時間が変わる
     }
 
     void Update()
