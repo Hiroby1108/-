@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\PlayerTutorial.cs" />
      <Compile Include="Assets\Script\ResultPlint.cs" />
      <Compile Include="Assets\Script\ResultTextSet.cs" />
+     <Compile Include="Assets\Script\SeaCloudy.cs" />
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
