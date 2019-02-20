@@ -71,7 +71,6 @@ public class EventSystem : MonoBehaviour
                   //new Vector3(Random.Range(-X - Xs, X + Xs), Random.Range(-Y - Ys, Y + Ys), Random.Range(-Z - Zs, Z - Zs)),//ここの値を変えれば乱数でゴミ出ますが電池の都合上できなかったのでだれかお願いします
                   new Vector3(Random.Range(-X , Xs), Random.Range(-Y, Ys), Random.Range(-Z, Zs)),
                      Quaternion.Euler(0f, 0f, 0f));
-            Debug.Log("unko");
         }
     }
 }
