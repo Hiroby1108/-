@@ -22,8 +22,8 @@ public class SeaCloudy : MonoBehaviour
             {
                 if (c < 250)
                 {
-                    c += 14;
-                    d -= 10;
+                    c += 14;//画面に少しばかり青みを持たせる
+                    d -= 10;//画面の透明度を変化
                     Debug.Log(c);
                     Sea.GetComponent<Renderer>().material.color = new Color32(0, 0, c, d);
                 }
