@@ -38,7 +38,7 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-                Debug.Log("unko");
+               
                 Light();
                 i = 1;
 
@@ -51,7 +51,7 @@ public class tutorial : MonoBehaviour
                 if (!b)
                 {
                     b = true;
-                    Debug.Log("unko2");
+       
                     Left();
                     i = 2;
                 }
@@ -64,7 +64,7 @@ public class tutorial : MonoBehaviour
                 if (!c)
                 {
                     c = true;
-                    Debug.Log("unko3");
+   
                     Down();
                     i = 3;
                 }
@@ -77,7 +77,7 @@ public class tutorial : MonoBehaviour
                 if (!d)
                 {
                     d = true;
-                    Debug.Log("unko4");
+                  
                     trash();
                 }
             }
