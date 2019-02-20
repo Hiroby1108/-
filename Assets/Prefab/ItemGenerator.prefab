@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7815076763211096339}
   - component: {fileID: 7815076763211096332}
+  - component: {fileID: 7931248584489414339}
   m_Layer: 0
   m_Name: ItemGenerator
   m_TagString: Untagged
@@ -50,6 +51,20 @@ MonoBehaviour:
   numOfTrash: 10
   numOfLiving: 10
   center: {x: 0, y: 0, z: 0}
+--- !u!114 &7931248584489414339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7815076763211096333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ea8fd7763ea284296d2cac6c7cd837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 7
+  note: "\u305D\u308C\u305E\u308C\u306E\u30EA\u30B9\u30C8\u306B\u5165\u308C\u308B\u524D\u306B\u30BF\u30B0\u3092\u30C1\u30A7\u30C3\u30AF\n\u62E1\u6563\u7BC4\u56F2\u306B\u5408\u308F\u305B\u30D7\u30EC\u30A4\u30A8\u30EA\u30A2\u306A\u3069\u304C\u81EA\u52D5\u3067\u5927\u304D\u3055\u3092\u5909\u3048\u308B\n\u6D3B\u52D5\u4E2D\u5FC3(center)\u306F\u672A\u5B8C\u6210"
 --- !u!1001 &1684060828334286715
 PrefabInstance:
   m_ObjectHideFlags: 0
