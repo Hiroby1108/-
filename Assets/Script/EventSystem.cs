@@ -45,9 +45,22 @@ public class EventSystem : MonoBehaviour
     }
     void call()
     {
+<<<<<<< HEAD
 
         gameObject.transform.position = new Vector3(x, y, z);
         gameObject.transform.localScale = new Vector3(xs, ys, Zs);
 
+=======
+        if (list.Count <= 0) return;//未設定時
+        for (int LP = 0; LP < i_num; LP++)
+        {
+            int x = (int)Random.Range(0, list.Count);
+            if (list[x] == null) continue;
+            Instantiate(list[x],//
+                  //new Vector3(Random.Range(-X - Xs, X + Xs), Random.Range(-Y - Ys, Y + Ys), Random.Range(-Z - Zs, Z - Zs)),//ここの値を変えれば乱数でゴミ出ますが電池の都合上できなかったのでだれかお願いします
+                  new Vector3(Random.Range(-X , Xs), Random.Range(-Y, Ys), Random.Range(-Z, Zs)),
+                     Quaternion.Euler(0f, 0f, 0f));
+        }
+>>>>>>> e49d118982a8ef5889555063f14dc6b7063cd804
     }
 }
