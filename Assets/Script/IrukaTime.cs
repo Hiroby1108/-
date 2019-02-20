@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class IrukaTime : MonoBehaviour{
     GameObject IrukaTimeText;
     public float time = 10.0f;
-    public int t;
+    private int t;
     public static  bool count;
     // Start is called before the first frame update
     void Start(){
@@ -26,7 +26,7 @@ public class IrukaTime : MonoBehaviour{
             t = Mathf.FloorToInt(time);
             Text uitext = GetComponent<Text>();
             uitext.text = "イルカ到達時間:" + t;
-            if (time < 0){
+            if (time < 1){
                 uitext.text = "イルカ進入中";
             }
         }
