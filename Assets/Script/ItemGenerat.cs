@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemGenerat : MonoBehaviour
 {
-    
+
     [SerializeField,Header("ゴミリスト"),Tooltip("Assets/Prefab/Trash01～03 :を使用\n\"Rigidbody\"を適用したものを使用")]
     List<Rigidbody> trashRig = new List<Rigidbody>();
 
@@ -64,7 +64,7 @@ public class ItemGenerat : MonoBehaviour
             if (listRig[x] == null) continue;
             Instantiate(listRig[x],//
                 new Vector3(Random.Range(-range, range), Random.Range(-range, range), Random.Range(-range, range)),//
-                 Quaternion.Euler(0f, 0f, 0f));
+                 Quaternion.Euler(Random.Range(-10.0f, 10.0f), Random.Range(0.0f, 360.0f), Random.Range(-15.0f, 15.0f)));
         }
     }
     public bool getGeneratEnd()
