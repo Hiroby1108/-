@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1922305390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1922305398}
+  - component: {fileID: 1922305397}
+  - component: {fileID: 1922305396}
+  - component: {fileID: 1922305395}
+  - component: {fileID: 1922305394}
+  - component: {fileID: 1922305393}
+  - component: {fileID: 1922305392}
+  - component: {fileID: 1922305391}
+  - component: {fileID: 5386172147051778143}
+  m_Layer: 0
+  m_Name: IrukaHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1922305398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 93, y: 5, z: 0}
+  m_LocalScale: {x: 237.18529, y: 237.18529, z: 237.18529}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!33 &1922305397
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Mesh: {fileID: 4300000, guid: 0df14a343806d6b47994ff2ceb4be687, type: 3}
+--- !u!23 &1922305396
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0df14a343806d6b47994ff2ceb4be687, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1922305395
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010370124, y: 0.00699474, z: 0.037890576}
+  m_Center: {x: 0.0000000050259987, y: -0.00011770361, z: 0.0012069282}
+--- !u!114 &1922305394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ea8fd7763ea284296d2cac6c7cd837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 4
+  note: "rute\u306E\u7BC4\u56F2\u3092\u5909\u3048\u305F\u969Brute(1)\u2192position\u306Ey\u5EA7\u6A19\u3092RuteAreaUnderNum\u306B\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002(IrukaHead\u306E\u3084\u3064)\n\u3053\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u306F\u30A4\u30EB\u30AB\u306E\u4E00\u756A\u5148\u982D\u306B\u81EA\u52D5\u3067\u8A2D\u7F6E\u3055\u308C\u308B\u305F\u3081position\u3092\u5909\u66F4\u3059\u308B\u3053\u3068\u306F\u3067\u304D\u307E\u305B\u3093\u3002\u3053\u306E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u5EA7\u6A19\u3092\u53C2\u8003\u306BIrukaBehind\u3092\u4F7F\u7528\u3057\u3066\u8A2D\u7F6E\u3057\u3066\u304F\u3060\u3055\u3044\u3002\uFF08IrukaBehind\u306F\u624B\u52D5\u3067\u8A2D\u5B9A\u3067\u304D\u307E\u3059\u3002"
+--- !u!114 &1922305393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219ec97a98228f648bd2cdc8e0bb1eef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RuteAreaUnderNum: -10
+--- !u!114 &1922305392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84699422f53d7eb49a16b86336401251, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  irukaSpeed: 0.05
+--- !u!114 &1922305391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f26fdcd31190f646973df9106e7f600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5386172147051778143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922305390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ea8fd7763ea284296d2cac6c7cd837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameTag: 4
+  note: "IrukaMove\u306ESpeed\u3092\u5909\u66F4\u3057\u305F\u3089IrukaMove\u306EirukaPos\u3092\u5909\u66F4\u3059\u308B\u3053\u3068\uFF08script\u5185\u306E\u30B3\u30E1\u30F3\u30C8\u3092\u53C2\u8003\u306B\uFF09"
