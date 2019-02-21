@@ -6,6 +6,8 @@ public class Sound : MonoBehaviour
 {
     public AudioSource SE;
     public AudioClip take;
+    public AudioClip warning;
+    public AudioClip back;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,20 @@ public class Sound : MonoBehaviour
         {
             SE.PlayOneShot(take);
         }
-        if (collision.gameObject.tag == "Area")
+        
+    }
+    public void OnTriggerExit(Collider other)
+    {
+      
+            if (other.gameObject.name == "SafetyArea")
+            {
+                SE.PlayOneShot(warning);
+            }
+        if (other.gameObject.name == "PlayArea")
         {
-            SE.PlayOneShot(take);
+            SE.PlayOneShot(back);
         }
     }
     
+
 }

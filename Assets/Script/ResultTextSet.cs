@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,9 +18,8 @@ public class ResultTextSet : MonoBehaviour{
         /*ResultUI_1_1 = GameObject.Find("ResultText1_1");  //修正用
         ResultUI_1_2 = GameObject.Find("ResultText1_2");
         ResultUI_1_3 = GameObject.Find("ResultText1_3");*/
-        //ResultUI_2 = GameObject.Find("ResultText2");
-        ResultUI_22 = GameObject.Find("ResultText22");
         ResultUI_2 = GameObject.Find("test");
+        ResultUI_22 = GameObject.Find("ResultText22");
     }
 
     void Update(){
