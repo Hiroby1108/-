@@ -58,19 +58,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.014349895, y: 0.026679985, z: 0.08348578}
   m_Center: {x: 0, y: 0, z: 0.0013485458}
---- !u!65 &4220102201081585353
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4801690866879781371}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.014349895, y: 0.026679985, z: 0.08348578}
-  m_Center: {x: 0, y: 0, z: 0.0013485458}
 --- !u!54 &583160551799911199
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -87,6 +74,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &4220102201081585353
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801690866879781371}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014349895, y: 0.026679985, z: 0.08348578}
+  m_Center: {x: 0, y: 0, z: 0.0013485458}
 --- !u!54 &8018828018208229516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -449,7 +449,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
-      value: Kozakana
+      value: Kozakana Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x

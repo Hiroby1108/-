@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\IrukaTime.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
+     <Compile Include="Assets\Script\LateCam.cs" />
      <Compile Include="Assets\Script\LookForPlayer.cs" />
      <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
      <Compile Include="Assets\Script\Player\IController.cs" />
