@@ -59,7 +59,9 @@
      <Compile Include="Assets\Script\IrukaMove.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
+     <Compile Include="Assets\Script\KozakanaMove.cs" />
      <Compile Include="Assets\Script\LateCam.cs" />
+     <Compile Include="Assets\Script\LivingDestroy.cs" />
      <Compile Include="Assets\Script\LookForPlayer.cs" />
      <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
      <Compile Include="Assets\Script\Player\IController.cs" />
@@ -81,6 +83,7 @@
      <Compile Include="Assets\Script\story\FadeScript.cs" />
      <Compile Include="Assets\Script\story\IrukaTime.cs" />
      <Compile Include="Assets\Script\story\story.cs" />
+     <Compile Include="Assets\Script\StoryScene.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
      <Compile Include="Assets\Script\tutorial\PlayerTutorial.cs" />
