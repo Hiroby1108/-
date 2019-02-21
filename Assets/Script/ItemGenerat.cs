@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ItemGenerat : MonoBehaviour
 {
-
+    public float life = 40.0f;
+    public float nextlife = 40.0f;
     [SerializeField,Header("ゴミリスト"),Tooltip("Assets/Prefab/Trash01～03 :を使用\n\"Rigidbody\"を適用したものを使用")]
     List<Rigidbody> trashRig = new List<Rigidbody>();
 
@@ -52,7 +53,13 @@ public class ItemGenerat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        life -= Time.deltaTime;
+        if (life < 0)
+        {
+            Generate(numOfLiving, livingRig);
+            life = nextlife;
+            Debug.Log("生き物増殖");
+        }
     }
 
     private void Generate(int i_num, List<Rigidbody> listRig)
