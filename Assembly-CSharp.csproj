@@ -75,7 +75,10 @@
     <Compile Include="Assets\Script\Player\PlayerController.cs" />
     <Compile Include="Assets\Script\PlayerTutorial.cs" />
     <Compile Include="Assets\Script\ResultPlint.cs" />
+    <Compile Include="Assets\Script\ResultTextMyTotal.cs" />
+    <Compile Include="Assets\Script\ResultTextPetbotol.cs" />
     <Compile Include="Assets\Script\ResultTextSet.cs" />
+    <Compile Include="Assets\Script\ResultTextTabako.cs" />
     <Compile Include="Assets\Script\RuteAreaSet.cs" />
     <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
     <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
