@@ -2075,7 +2075,7 @@ PrefabInstance:
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
       propertyPath: limitTime
-      value: 60
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
@@ -2090,7 +2090,7 @@ PrefabInstance:
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
       propertyPath: NextSceneName
-      value: TestScene
+      value: Result
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 999863468741668357, guid: 5d49a9f0cab78c241a185fc0448cdfe8, type: 3}
