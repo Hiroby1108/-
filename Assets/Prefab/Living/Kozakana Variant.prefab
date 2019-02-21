@@ -87,6 +87,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.014349895, y: 0.026679985, z: 0.08348578}
   m_Center: {x: 0, y: 0, z: 0.0013485458}
+--- !u!114 &7979059989103066632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4801690866879781371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654b34324821df408347fd84de6fe31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &8018828018208229516
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -301,6 +313,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kozakana (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.056995835
@@ -375,6 +391,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
       value: Kozakana (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -524,6 +544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kozakana (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.049895354
@@ -598,6 +622,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
       value: Kozakana (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,6 +702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kozakana (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.052773952
@@ -748,6 +780,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
       value: Kozakana (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -824,6 +860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kozakana (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.019190503
@@ -898,6 +938,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
       value: Kozakana (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1057,6 +1101,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_Name
       value: Kozakana (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
+      propertyPath: m_TagString
+      value: Living
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 315b62332ca03274c85bad5c330bfc2e, type: 3}
       propertyPath: m_LocalPosition.x
