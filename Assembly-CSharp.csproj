@@ -54,11 +54,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\AddOunliner.cs" />
-     <Compile Include="Assets\Script\EventSystem.cs" />
      <Compile Include="Assets\Script\GameRule.cs" />
      <Compile Include="Assets\Script\IrukaHead.cs" />
      <Compile Include="Assets\Script\IrukaMove.cs" />
-     <Compile Include="Assets\Script\IrukaTime.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
      <Compile Include="Assets\Script\LateCam.cs" />
@@ -67,7 +65,7 @@
      <Compile Include="Assets\Script\Player\IController.cs" />
      <Compile Include="Assets\Script\Player\PlayeGetItem.cs" />
      <Compile Include="Assets\Script\Player\PlayerController.cs" />
-     <Compile Include="Assets\Script\PlayerTutorial.cs" />
+     <Compile Include="Assets\Script\Player\TrashCounter.cs" />
      <Compile Include="Assets\Script\ResultPlint.cs" />
      <Compile Include="Assets\Script\ResultTextMyTotal.cs" />
      <Compile Include="Assets\Script\ResultTextPetbotol.cs" />
@@ -78,11 +76,15 @@
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
-     <Compile Include="Assets\Script\story.cs" />
+     <Compile Include="Assets\Script\story\CoralMission.cs" />
+     <Compile Include="Assets\Script\story\EventSystem.cs" />
+     <Compile Include="Assets\Script\story\FadeScript.cs" />
+     <Compile Include="Assets\Script\story\IrukaTime.cs" />
+     <Compile Include="Assets\Script\story\story.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
-     <Compile Include="Assets\Script\TrashCounter.cs" />
-     <Compile Include="Assets\Script\tutorial.cs" />
+     <Compile Include="Assets\Script\tutorial\PlayerTutorial.cs" />
+     <Compile Include="Assets\Script\tutorial\tutorial.cs" />
      <Compile Include="Assets\Sound\FireworkControl.cs" />
      <Compile Include="Assets\Sound\Sound.cs" />
      <Compile Include="Assets\Wakis\prefabs_Memo.cs" />

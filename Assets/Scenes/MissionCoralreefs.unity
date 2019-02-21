@@ -4307,6 +4307,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3594595052443578053, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8731430142218037037, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: playerTrans
@@ -18571,6 +18576,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 661015101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1140241010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 8193c4618ea5afb4b844955a07f57c90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1335195827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1140241011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140241010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681fdd5b065e53a4da9bd662cee1baea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextSceneName: Result
 --- !u!1001 &1146290579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31272,6 +31296,7 @@ GameObject:
   - component: {fileID: 2022110108}
   - component: {fileID: 2022110111}
   - component: {fileID: 2022110110}
+  - component: {fileID: 2022110109}
   m_Layer: 5
   m_Name: Story
   m_TagString: Untagged
@@ -31295,9 +31320,22 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 152.1, y: 11.8}
+  m_AnchoredPosition: {x: 150, y: 5.2}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2022110109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022110107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0910ddb4f8ad00d4e98ee73cc5d5252c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.01
 --- !u!114 &2022110110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31311,7 +31349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -31320,7 +31358,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -33046,7 +33084,7 @@ PrefabInstance:
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
       propertyPath: NextSceneName
-      value: TestScene
+      value: Result
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 999863468741668357, guid: 5d49a9f0cab78c241a185fc0448cdfe8, type: 3}
