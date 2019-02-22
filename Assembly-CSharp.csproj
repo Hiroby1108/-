@@ -54,29 +54,31 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\AddOunliner.cs" />
-     <Compile Include="Assets\Script\FadeIn.cs" />
+     <Compile Include="Assets\Script\Fade\FadeIn.cs" />
+     <Compile Include="Assets\Script\Fade\FadePanel.cs" />
+     <Compile Include="Assets\Script\Fade\IrukaPanel.cs" />
+     <Compile Include="Assets\Script\Fade\SceneFade.cs" />
+     <Compile Include="Assets\Script\Fade\StoryPanel.cs" />
      <Compile Include="Assets\Script\GameRule.cs" />
      <Compile Include="Assets\Script\IrukaHead.cs" />
      <Compile Include="Assets\Script\IrukaMove.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
      <Compile Include="Assets\Script\KozakanaMove.cs" />
-     <Compile Include="Assets\Script\LateCam.cs" />
      <Compile Include="Assets\Script\LivingDestroy.cs" />
      <Compile Include="Assets\Script\LookForPlayer.cs" />
      <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
      <Compile Include="Assets\Script\Player\IController.cs" />
+     <Compile Include="Assets\Script\Player\LateCam.cs" />
      <Compile Include="Assets\Script\Player\PlayeGetItem.cs" />
      <Compile Include="Assets\Script\Player\PlayerController.cs" />
+     <Compile Include="Assets\Script\Player\SeaCloudy.cs" />
      <Compile Include="Assets\Script\Player\TrashCounter.cs" />
      <Compile Include="Assets\Script\ResultPlint.cs" />
      <Compile Include="Assets\Script\ResultTextMyTotal.cs" />
      <Compile Include="Assets\Script\ResultTextPetbotol.cs" />
      <Compile Include="Assets\Script\ResultTextSet.cs" />
      <Compile Include="Assets\Script\ResultTextTabako.cs" />
-     <Compile Include="Assets\Script\RuteAreaSet.cs" />
-     <Compile Include="Assets\Script\SceneFade.cs" />
-     <Compile Include="Assets\Script\SeaCloudy.cs" />
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
@@ -84,8 +86,9 @@
      <Compile Include="Assets\Script\story\EventSystem.cs" />
      <Compile Include="Assets\Script\story\FadeScript.cs" />
      <Compile Include="Assets\Script\story\IrukaTime.cs" />
+     <Compile Include="Assets\Script\story\RuteAreaSet.cs" />
      <Compile Include="Assets\Script\story\story.cs" />
-     <Compile Include="Assets\Script\StoryScene.cs" />
+     <Compile Include="Assets\Script\story\StoryScene.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
      <Compile Include="Assets\Script\tutorial\PlayerTutorial.cs" />

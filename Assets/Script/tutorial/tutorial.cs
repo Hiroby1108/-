@@ -98,7 +98,7 @@ public class tutorial : MonoBehaviour
     void trash()
     {
         myText.text = "ゴミを3個集めてください";
-        Invoke("OutText", 2.0f);
+        Invoke("OutText", 4.0f);
     }
     void OutText()
     {
