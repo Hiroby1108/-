@@ -3781,12 +3781,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8193c4618ea5afb4b844955a07f57c90, type: 3}
---- !u!4 &182656803 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8255427068408076114, guid: f777c6b2f3125934fb224e15a85942c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 226794183}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &194547729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4223,6 +4217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8255427068408076114, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3375389807495250952, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4303,11 +4302,6 @@ PrefabInstance:
       propertyPath: far clip plane
       value: 1000
       objectReference: {fileID: 0}
-    - target: {fileID: 8255427068408076114, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3594595052443578053, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_RootOrder
@@ -4352,8 +4346,9 @@ PrefabInstance:
         type: 3}
       propertyPath: playerTrans
       value: 
-      objectReference: {fileID: 182656803}
-    m_RemovedComponents: []
+      objectReference: {fileID: 226794184}
+    m_RemovedComponents:
+    - {fileID: 410440038506602485, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
 --- !u!4 &226794184 stripped
 Transform:
