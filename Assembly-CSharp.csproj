@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\AddOunliner.cs" />
+     <Compile Include="Assets\Script\ChangeSprite.cs" />
      <Compile Include="Assets\Script\Fade\FadeIn.cs" />
      <Compile Include="Assets\Script\Fade\FadePanel.cs" />
      <Compile Include="Assets\Script\Fade\IrukaPanel.cs" />
