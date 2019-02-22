@@ -74,6 +74,7 @@
      <Compile Include="Assets\Script\Player\PlayerController.cs" />
      <Compile Include="Assets\Script\Player\SeaCloudy.cs" />
      <Compile Include="Assets\Script\Player\TrashCounter.cs" />
+     <Compile Include="Assets\Script\ResultAllText.cs" />
      <Compile Include="Assets\Script\ResultPlint.cs" />
      <Compile Include="Assets\Script\ResultTextMyTotal.cs" />
      <Compile Include="Assets\Script\ResultTextPetbotol.cs" />
