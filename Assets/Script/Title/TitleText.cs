@@ -11,6 +11,6 @@ public class TitleText : MonoBehaviour
     // Start is called before the first frame update
     public void OnStartButtonClicked()
     {
-        SceneManager.LoadScene("tutorial");
+        SceneFade.FadeOut(1);
     }
 }

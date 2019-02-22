@@ -18,6 +18,7 @@ public class tutorial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SceneFade.FadeIn();
         myText = GetComponentInChildren<Text>();
     }
 
@@ -38,7 +39,6 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-               
                 Light();
                 i = 1;
 
