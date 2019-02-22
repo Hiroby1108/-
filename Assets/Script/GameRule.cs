@@ -99,10 +99,10 @@ public class GameRule : MonoBehaviour
                 if (Now_Trash <= leftOver) next_step = STEP.FINISH;
                 break;
             case STEP.FINISH:
-                SceneFade.FadeOut(6);
+                SceneFade.FadeOut(5);
                 break;
             case STEP.GAMEOVER:
-                SceneFade.FadeOut(6);
+                SceneFade.FadeOut(5);
                 break;
         }
     }
