@@ -4347,8 +4347,7 @@ PrefabInstance:
       propertyPath: playerTrans
       value: 
       objectReference: {fileID: 226794184}
-    m_RemovedComponents:
-    - {fileID: 410440038506602485, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
 --- !u!4 &226794184 stripped
 Transform:
@@ -6111,21 +6110,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8193c4618ea5afb4b844955a07f57c90, type: 3}
---- !u!1 &354985741 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5568385122379673472, guid: f777c6b2f3125934fb224e15a85942c9,
-    type: 3}
-  m_PrefabInstance: {fileID: 226794183}
-  m_PrefabAsset: {fileID: 0}
---- !u!45 &354985743
-Skybox:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354985741}
-  m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: bff2b5a8411acc846a7694420cd70723, type: 2}
 --- !u!1001 &356879911
 PrefabInstance:
   m_ObjectHideFlags: 0
