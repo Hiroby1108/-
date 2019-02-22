@@ -12,6 +12,9 @@ public class tutorial : MonoBehaviour
     bool c = false;
     bool d = false;
 
+    //左下スプライト変化用
+    public GameObject change;
+
     int i = 0;
     public float time = 5f;
     private float outTime = 0f;
@@ -19,6 +22,7 @@ public class tutorial : MonoBehaviour
     void Start()
     {
         myText = GetComponentInChildren<Text>();
+        change = GameObject.Find("Image");  //左下スプライト変化用
     }
 
     // Update is called once per frame
@@ -40,6 +44,7 @@ public class tutorial : MonoBehaviour
                 a = true;
                 Debug.Log("unko");
                 Light();
+                change.GetComponent<ChangeSprite>().changeUtoR();   //左下スプライト変化用
                 i = 1;
 
             }
@@ -53,6 +58,7 @@ public class tutorial : MonoBehaviour
                     b = true;
                     Debug.Log("unko2");
                     Left();
+                    change.GetComponent<ChangeSprite>().changeRtoL();   //左下スプライト変化用
                     i = 2;
                 }
             }
@@ -66,6 +72,7 @@ public class tutorial : MonoBehaviour
                     c = true;
                     Debug.Log("unko3");
                     Down();
+                    change.GetComponent<ChangeSprite>().changeLtoD();   //左下スプライト変化用
                     i = 3;
                 }
             }
@@ -78,6 +85,7 @@ public class tutorial : MonoBehaviour
                 {
                     d = true;
                     Debug.Log("unko4");
+                    change.GetComponent<ChangeSprite>().spriteOff();   //左下スプライト消去用
                     trash();
                 }
             }
