@@ -9,7 +9,8 @@ public class ResultPlint : MonoBehaviour
     {
         //Debug.Log(PlayeGetItem.getLivingList());
 
-        Debug.Log(PlayeGetItem.getTrashList()["Trash01"]);
+        Debug.Log(PlayeGetItem.getTrashList());
+        //Debug.Log(PlayeGetItem.getTrashList()/*["tabako"]*/);
         foreach (KeyValuePair<string, int> DictKvp in PlayeGetItem.getTrashList())
         {
             Debug.Log(DictKvp);
