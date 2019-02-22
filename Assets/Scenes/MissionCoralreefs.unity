@@ -9289,6 +9289,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8193c4618ea5afb4b844955a07f57c90, type: 3}
+--- !u!1 &521195229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1191898455923665828, guid: f777c6b2f3125934fb224e15a85942c9,
+    type: 3}
+  m_PrefabInstance: {fileID: 226794183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!45 &521195234
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521195229}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: bff2b5a8411acc846a7694420cd70723, type: 2}
 --- !u!1001 &531052138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31438,7 +31453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 150, y: 5.2}
+  m_AnchoredPosition: {x: 150, y: 5.200012}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022110109
