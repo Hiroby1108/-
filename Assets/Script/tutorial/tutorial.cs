@@ -39,7 +39,6 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-               
                 Light();
                 i = 1;
 

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LateCam : MonoBehaviour
 {
-    float time = 0.0f;
     Transform cameraTrans;
     Transform player;
     [SerializeField]
@@ -17,8 +16,8 @@ public class LateCam : MonoBehaviour
         }
         void LateUpdate()
         {
-        cameraTrans.position = Vector3.Lerp(cameraTrans.position, playerTrans.position +cameraVec, 1.0f * Time.deltaTime);
-
-
-    }     
+        {
+            cameraTrans.position = Vector3.Lerp(cameraTrans.position, playerTrans.position + cameraVec, 1.0f * Time.deltaTime);
+        }
+    }
     }
