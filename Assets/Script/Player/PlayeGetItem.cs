@@ -38,6 +38,7 @@ public class PlayeGetItem : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         getObject(other,"Trash",TrashList);
+        getObject(other, "Living", LivingList);
     }
 
     private void getObject(Collision other,string objtag, Dictionary<string, int> Dict_s_i)

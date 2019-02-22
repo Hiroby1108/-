@@ -18,6 +18,7 @@ public class tutorial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SceneFade.FadeIn();
         myText = GetComponentInChildren<Text>();
     }
 
@@ -38,7 +39,6 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-               
                 Light();
                 i = 1;
 
@@ -98,7 +98,7 @@ public class tutorial : MonoBehaviour
     void trash()
     {
         myText.text = "ゴミを3個集めてください";
-        Invoke("OutText", 2.0f);
+        Invoke("OutText", 4.0f);
     }
     void OutText()
     {
