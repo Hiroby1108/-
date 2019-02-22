@@ -18,7 +18,7 @@ public class StoryScene : MonoBehaviour
         nextSceneCount -= Time.deltaTime;
         if (nextSceneCount < 0)
         {
-            SceneManager.LoadScene("tutorial");
+            SceneFade.FadeOut(2);
         }
     }
 }

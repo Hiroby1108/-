@@ -60,17 +60,18 @@ public class PlayerTutorial : MonoBehaviour
     }
     void SceneChange()
     {
-        SceneManager.LoadScene(NextSceneName);
+        
+        SceneFade.FadeOut(3);
         Debug.Log(NextSceneName);
     }
     void SceneChangeTurtle()
     {
-        SceneManager.LoadScene(NextSceneNameTurtle);
+        SceneFade.FadeOut(4);
         Debug.Log(NextSceneNameTurtle);
     }
     void SceneChangeCoral()
     {
-        SceneManager.LoadScene(NextSceneNameCoral);
+        SceneFade.FadeOut(5);
         Debug.Log(NextSceneNameCoral);
     }
 
