@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Firework.unity
-=======
-- path: Assets/Scenes/MissionCoralreefs.unity
->>>>>>> ad3a824f4b9a99c5cb52955d8002dd98804505e9
+- path: Assets/Scenes/Result.unity
   isLoaded: 1
   isActive: 1
