@@ -99,6 +99,7 @@
      <Compile Include="Assets\Script\story\StoryScene.cs" />
      <Compile Include="Assets\Script\TimerController.cs" />
      <Compile Include="Assets\Script\Title\TitleText.cs" />
+     <Compile Include="Assets\Script\TrashJudg.cs" />
      <Compile Include="Assets\Script\tutorial\PlayerTutorial.cs" />
      <Compile Include="Assets\Script\tutorial\tutorial.cs" />
      <Compile Include="Assets\Sound\FireworkControl.cs" />
