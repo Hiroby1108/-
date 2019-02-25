@@ -23,6 +23,7 @@ public class StoryPanel : MonoBehaviour
             time = time + Time.deltaTime;
             if (time >= p)
             {
+                Panel.gameObject.SetActive(false);
                 Panel.gameObject.GetComponent<Image>().enabled = false;
             }
         }
