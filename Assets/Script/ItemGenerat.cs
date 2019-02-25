@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ItemGenerat : MonoBehaviour
 {
+    [SerializeField, Header("最初の生物生成までの時間")]
     public float life = 40.0f;
+    [SerializeField, Header("2回目以降の生物生成の時間")]
     public float nextlife = 40.0f;
     [SerializeField,Header("ゴミリスト"),Tooltip("Assets/Prefab/Trash01～03 :を使用\n\"Rigidbody\"を適用したものを使用")]
     List<Rigidbody> trashRig = new List<Rigidbody>();
