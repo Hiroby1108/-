@@ -28,7 +28,7 @@ public class story : MonoBehaviour
 
         Story.GetComponent<Text>().enabled = true;
         rute.gameObject.SetActive(true);
-        Destroy(Story, 6);//文字消す
+        Destroy(Story, 8);//文字消す
         EventSystem.a = true;
     }
 }
