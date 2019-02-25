@@ -24,7 +24,7 @@ public class CoralMission : MonoBehaviour
         if (col.gameObject.tag == "Trash")
         {
             i++;
-            if (i == 10)
+            if (i == 30)
             {
                 Invoke("SceneChange", 2.0f);
             }

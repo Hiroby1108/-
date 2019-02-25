@@ -19,7 +19,7 @@ public class FadePanel : MonoBehaviour
         time = time + Time.deltaTime;
         if (time >= p)
         {
-            Panel.gameObject.GetComponent<Image>().enabled = false;
+            Panel.gameObject.SetActive(false);
         }
     }
 }

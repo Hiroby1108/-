@@ -88,6 +88,7 @@
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />
+     <Compile Include="Assets\Script\story\CoralCounter.cs" />
      <Compile Include="Assets\Script\story\CoralMission.cs" />
      <Compile Include="Assets\Script\story\EventSystem.cs" />
      <Compile Include="Assets\Script\story\FadeScript.cs" />
