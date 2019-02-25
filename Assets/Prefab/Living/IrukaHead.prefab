@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 5386172147051778143}
   m_Layer: 0
   m_Name: IrukaHead
-  m_TagString: Untagged
+  m_TagString: Iruka
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RuteAreaUnderNum: -10
+  irukaPos: 2
 --- !u!114 &1922305392
 MonoBehaviour:
   m_ObjectHideFlags: 0

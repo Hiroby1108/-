@@ -20,8 +20,10 @@ public class TrashJudg : MonoBehaviour
     }
     private void OnTriggerEnter(Collider col)
     {
+        
         if (col.gameObject.tag == "Iruka")
         {
+           
             if (IrukaTuchJudg.Trashnum <= TrashRecovery)
             {
                 SceneManager.LoadScene("Result"); //ミッションクリアシーンへ移動
