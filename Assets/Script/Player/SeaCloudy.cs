@@ -5,9 +5,9 @@ using UnityEngine;
 public class SeaCloudy : MonoBehaviour
 {
     public GameObject Sea;
-
-    byte c = 0;
-    byte d = 180;
+    byte g = 142;
+    byte b = 0;
+    byte alfa = 180;
     void Start()
     {
     }
@@ -18,14 +18,15 @@ public class SeaCloudy : MonoBehaviour
     {
         if (col.gameObject.tag == "Trash")
         {
-            if (d > 0)
+            if (alfa > 0)
             {
-                if (c < 250)
+                if (b < 250)
                 {
-                    c += 5;//画面に少しばかり青みを持たせる
-                    d -= 5;//画面の透明度を変化
-                    Debug.Log(c);
-                    Sea.GetComponent<Renderer>().material.color = new Color32(0, 0, c, d);
+                    g -= 5;
+                    b += 5;//画面に少しばかり青みを持たせる
+                    alfa -= 5;//画面の透明度を変化
+                    Debug.Log(b);
+                    Sea.GetComponent<Renderer>().material.color = new Color32(0, g, b, alfa);
                 }
             }
 
