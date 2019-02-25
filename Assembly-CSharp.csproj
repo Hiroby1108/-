@@ -71,6 +71,7 @@
      <Compile Include="Assets\Script\Player\DebugMouseRot.cs" />
      <Compile Include="Assets\Script\Player\IController.cs" />
      <Compile Include="Assets\Script\Player\LateCam.cs" />
+     <Compile Include="Assets\Script\Player\LivingCounter.cs" />
      <Compile Include="Assets\Script\Player\PlayeGetItem.cs" />
      <Compile Include="Assets\Script\Player\PlayerController.cs" />
      <Compile Include="Assets\Script\Player\SeaCloudy.cs" />

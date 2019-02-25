@@ -1753,7 +1753,7 @@ PrefabInstance:
     - target: {fileID: 7815076763211096332, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: numOfTrash
-      value: 300
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 7815076763211096332, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
@@ -2561,11 +2561,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trash:
-  - {fileID: 1893202306625708430, guid: 2226ab45990a34c4c8e1a4089500c34a, type: 3}
-  - {fileID: 8161422789207073142, guid: a1f7f734604f1f940897b387c1c091cf, type: 3}
-  - {fileID: 2050904116532760231, guid: bedd0273ebb3ce94994b3441564d0fdf, type: 3}
-  - {fileID: 3738291878726103989, guid: 755ff07b07062ae428a871f2301e0e26, type: 3}
-  - {fileID: 4489232017414145434, guid: 5a5c05d136b0b7c4a864bc1538980b32, type: 3}
+  - {fileID: 7084918984690911721, guid: b59030b499758f740920cf469692f8ea, type: 3}
+  - {fileID: 2050904116532760231, guid: 622ffc4f06b0857458d4eaede15c9de8, type: 3}
+  - {fileID: 5363753039765339110, guid: aad142b6c15116b48b899c2cdec546ae, type: 3}
+  - {fileID: 1893202306625708430, guid: 08747053e96c9fa46bd7522275f476e2, type: 3}
+  - {fileID: 8161422789207073142, guid: 460d15abbf0d26e4daa402d2adc1c619, type: 3}
+  - {fileID: 3738291878726103989, guid: defceaf9b4aba9043b74dee323a3a5ef, type: 3}
+  - {fileID: 4489232017414145434, guid: 73e21bf3988b17144a1f8febd79fa9fc, type: 3}
+  - {fileID: 5556759613078013290, guid: cf6e78c2bc012ab47a29acb98c2dbb46, type: 3}
   living: []
   numOfEventTrash: 70
   numOfEventLiving: 10
