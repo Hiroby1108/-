@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class IrukaTuchJudg : MonoBehaviour
 {
+    public static int Trashnum;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class IrukaTuchJudg : MonoBehaviour
     private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Trash"){
+            Trashnum++;
             Destroy(col.gameObject);
         }
     }
