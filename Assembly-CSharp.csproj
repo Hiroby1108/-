@@ -86,6 +86,7 @@
      <Compile Include="Assets\Script\ResultTextTaiya.cs" />
      <Compile Include="Assets\Script\ResultTextTerebi.cs" />
      <Compile Include="Assets\Script\ResurtTextBiniru.cs" />
+     <Compile Include="Assets\Script\Scean.cs" />
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
      <Compile Include="Assets\Script\Sonar\sonarColor.cs" />
      <Compile Include="Assets\Script\Sonar\sonarPosition.cs" />

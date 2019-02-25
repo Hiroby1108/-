@@ -24,7 +24,7 @@ public class FadeScript : MonoBehaviour
         GetComponent<Text>().color = new Color(red, green, blue, alfa);
         alfa += speed;
             time = time + Time.deltaTime;
-            if (time >= 7.0f)
+            if (time >= 10.0f)
             {
             myText.GetComponent<Text>().enabled = false;
             }
