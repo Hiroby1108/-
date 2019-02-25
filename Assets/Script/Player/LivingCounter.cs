@@ -8,7 +8,7 @@ public class LivingCounter : MonoBehaviour
     Text myText;
 
     public int Livingnum = 10;
-    private int num;
+    private int num,t;
     [SerializeField, Header("プレイヤースピードと同じ値を設定してね")]
     public float speed;
     public static int GetLivingnum;
@@ -29,9 +29,10 @@ void Update()
         if (Livingnum <= 0)
         {
             PlayerController.getSpeed = 0f;
-            myText.text = "生き物排出中";
             life -= Time.deltaTime;
-            if (life < 0)
+            t = Mathf.FloorToInt(life);
+            myText.text = "排出完了まで残り"+t+"秒";
+            if (life < 1)
             {
                 PlayerController.getSpeed =speed;
                 life = 5f;

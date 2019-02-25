@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.56452316, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3739,6 +3739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -3794,10 +3798,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -3950,6 +3950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -4005,10 +4009,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -4742,6 +4742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -4797,10 +4801,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -5718,6 +5718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -5773,10 +5777,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -5929,6 +5929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -5984,10 +5988,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -9993,6 +9993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -10048,10 +10052,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -11037,6 +11037,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -11092,10 +11096,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -11455,6 +11455,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -11510,10 +11514,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -12226,6 +12226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -12281,10 +12285,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -12979,6 +12979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -13034,10 +13038,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -15647,6 +15647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -15702,10 +15706,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -18473,6 +18473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -18528,10 +18532,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -19824,6 +19824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -19879,10 +19883,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -19903,6 +19903,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -19958,10 +19962,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -20414,6 +20414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -20469,10 +20473,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -22867,6 +22867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -22922,10 +22926,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -23305,6 +23305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -23360,10 +23364,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -23597,6 +23597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -23652,10 +23656,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -23946,6 +23946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -24001,10 +24005,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -24156,7 +24156,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1492401587}
   - component: {fileID: 1492401586}
-  - component: {fileID: 1492401585}
   - component: {fileID: 1492401588}
   m_Layer: 0
   m_Name: SubCamera
@@ -24165,14 +24164,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1492401585
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1492401584}
-  m_Enabled: 1
 --- !u!20 &1492401586
 Camera:
   m_ObjectHideFlags: 0
@@ -25828,6 +25819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -25883,10 +25878,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -26494,6 +26485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -26549,10 +26544,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -27143,6 +27134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -27198,10 +27193,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -27630,6 +27621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -27685,10 +27680,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -30167,6 +30158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -30222,10 +30217,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -32521,6 +32512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -32576,10 +32571,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -33152,6 +33143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -33207,10 +33202,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -33513,6 +33504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0154
@@ -33568,10 +33563,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
@@ -33724,6 +33715,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sango(tana) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0265
+      objectReference: {fileID: 0}
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0075999997
@@ -33779,10 +33774,6 @@ PrefabInstance:
     - target: {fileID: 400018, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.2857143
-      objectReference: {fileID: 0}
-    - target: {fileID: 400016, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0265
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56f409e4c43d022449fa07cd083fa531, type: 3}
