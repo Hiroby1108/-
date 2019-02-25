@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6626389725340311372}
   m_Layer: 0
   m_Name: Biniru
-  m_TagString: Untagged
+  m_TagString: Trash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,8 +89,8 @@ Rigidbody:
   m_GameObject: {fileID: 4069091461347652732}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 10
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0

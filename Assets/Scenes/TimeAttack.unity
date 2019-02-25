@@ -2560,7 +2560,7 @@ MonoBehaviour:
   - {fileID: 3738291878726103989, guid: 755ff07b07062ae428a871f2301e0e26, type: 3}
   - {fileID: 4489232017414145434, guid: 5a5c05d136b0b7c4a864bc1538980b32, type: 3}
   living: []
-  numOfEventTrash: 70
+  numOfEventTrash: 100
   numOfEventLiving: 10
   X: 60
   Y: 0
