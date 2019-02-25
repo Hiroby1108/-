@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class PlayeGetItem : MonoBehaviour
 {
-    private static Dictionary<string, int> LivingList = new Dictionary<string, int>() { };//Livingタグのオブジェクト名と個数を取得,保存
+    private static Dictionary<string, int> LivingList = new Dictionary<string, int>(){};//Livingタグのオブジェクト名と個数を取得,保存
     public static Dictionary<string, int> getLivingList() { return LivingList; }
-    private static Dictionary<string, int> TrashList = new Dictionary<string, int>() { };
+    private static Dictionary<string, int> TrashList = new Dictionary<string, int>() {{ "tabako(Clone)", 0}, { "Petbotol(Clone)", 0 }, { "Gyomou(Clone)", 0 },
+                                                                                      { "Taiya(Clone)", 0},{ "Terebi(Clone)", 0},{ "Biniru(Clone)", 0}};
     public static Dictionary<string, int> getTrashList() { return TrashList; }
 
     /*

@@ -94,7 +94,7 @@ public class SceneFade : MonoBehaviour
                 alpha = 1.0f;
 
                 //次のシーンへ遷移
-                SceneManager.LoadScene(nextScene);
+                SceneManager.LoadScene("Result");   //リザルトに遷移するのにここをいじりました。不具合があれば修正宜しくお願いします
             }
 
             //フェード用Imageの透明度設定
