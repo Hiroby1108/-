@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField, Header("デフォルト速度"), Tooltip("Playerが進む速度")]
     private float speed;
+    public static float getSpeed;   //LivingCounter用
     [SerializeField, Header("デフォルト角速度"), Tooltip("Playerが回る回転率")]
     private float speedRot;
     [SerializeField,Header("ペナルティタイム(秒)"), Tooltip("コースアウト時の操作不能時間")]
@@ -36,11 +37,13 @@ public class PlayerController : MonoBehaviour
         this.transform.eulerAngles = new Vector3(0f, 0f, 0f);
         OutCompass();//ゲーム内コンパスの利用
         selectType();//Controlタイプの取得
+        getSpeed = speed;   //LivingCounter用設定
     }
 
     void Update()
     {
         step_timer += Time.deltaTime;    // 経過時間を取得.
+        speed = getSpeed;   //LivingCounter用設定
 
         // （１）ステップ変化時のみ.
         if (next_step != STEP.NONE)
