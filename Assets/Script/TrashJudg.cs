@@ -23,7 +23,7 @@ public class TrashJudg : MonoBehaviour
         
         if (col.gameObject.tag == "Iruka")
         {
-            Debug.Log("1");
+           
             if (IrukaTuchJudg.Trashnum <= TrashRecovery)
             {
                 SceneManager.LoadScene("Result"); //ミッションクリアシーンへ移動
