@@ -5,7 +5,7 @@ using UnityEngine;
 public class SeaCloudy : MonoBehaviour
 {
     public GameObject Sea;
-    byte g = 142;
+    byte g = 60;
     byte b = 0;
     byte alfa = 150;
     void Start()
@@ -22,7 +22,7 @@ public class SeaCloudy : MonoBehaviour
             {
                 if (b < 250)
                 {
-                    g -= 5;
+                    g -= 3;
                     b += 5;//画面に少しばかり青みを持たせる
                     alfa -= 5;//画面の透明度を変化
                     Debug.Log(b);
