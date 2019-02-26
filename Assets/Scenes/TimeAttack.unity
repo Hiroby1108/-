@@ -4205,11 +4205,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.75
       objectReference: {fileID: 0}
-    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3375389807495250954, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4225,6 +4220,11 @@ PrefabInstance:
       propertyPath: m_CustomSkybox
       value: 
       objectReference: {fileID: 2100000, guid: 8b1161b6bbfe09740b0e948292a7e4d8, type: 2}
+    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10335,8 +10335,9 @@ GameObject:
   - component: {fileID: 640683185}
   - component: {fileID: 640683187}
   - component: {fileID: 640683186}
+  - component: {fileID: 640683188}
   m_Layer: 5
-  m_Name: Text
+  m_Name: IrukaText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10403,6 +10404,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640683184}
   m_CullTransparentMesh: 0
+--- !u!114 &640683188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640683184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ca54774267b2847986923b3eaacb02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IrukaPanel: {fileID: 1746994384}
 --- !u!1 &643578045
 GameObject:
   m_ObjectHideFlags: 0
@@ -15534,8 +15548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 188, y: 62}
-  m_SizeDelta: {x: 2200, y: 1500}
+  m_AnchoredPosition: {x: 191, y: 217}
+  m_SizeDelta: {x: 2000, y: 1300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978235653
 MonoBehaviour:
@@ -15550,7 +15564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.6862745}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.38431373}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -27843,7 +27857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 34}
+  m_AnchoredPosition: {x: 0, y: 115}
   m_SizeDelta: {x: 600, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690173521
@@ -28931,7 +28945,7 @@ GameObject:
   - component: {fileID: 1746994385}
   - component: {fileID: 1746994384}
   m_Layer: 5
-  m_Name: Panel (Description)
+  m_Name: IrukaPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28953,8 +28967,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 188, y: -361}
-  m_SizeDelta: {x: 2170, y: 2200}
+  m_AnchoredPosition: {x: 199, y: -379}
+  m_SizeDelta: {x: 2300, y: 2200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746994384
 MonoBehaviour:
@@ -33087,10 +33101,10 @@ RectTransform:
   m_Father: {fileID: 1003875344}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 250, y: 61}
-  m_SizeDelta: {x: 500, y: 140}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 201, y: -9.000001}
+  m_SizeDelta: {x: 400, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022110109
 MonoBehaviour:
@@ -33119,7 +33133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.89411765}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -33128,7 +33142,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
