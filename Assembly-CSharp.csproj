@@ -63,6 +63,7 @@
      <Compile Include="Assets\Script\GameRule.cs" />
      <Compile Include="Assets\Script\IrukaHead.cs" />
      <Compile Include="Assets\Script\IrukaMove.cs" />
+     <Compile Include="Assets\Script\IrukaText.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
      <Compile Include="Assets\Script\KozakanaMove.cs" />
@@ -85,6 +86,7 @@
      <Compile Include="Assets\Script\ResultTextTabako.cs" />
      <Compile Include="Assets\Script\ResultTextTaiya.cs" />
      <Compile Include="Assets\Script\ResultTextTerebi.cs" />
+     <Compile Include="Assets\Script\ResultTextUki.cs" />
      <Compile Include="Assets\Script\ResurtTextBiniru.cs" />
      <Compile Include="Assets\Script\Scean.cs" />
      <Compile Include="Assets\Script\Sonar\SonarCamera.cs" />
