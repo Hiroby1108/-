@@ -23,9 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MissionCoralreefs.unity
     guid: 862b1eedee479b949a0db850aa390fcd
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Result.unity
+    guid: c99eaa6172ef77e408df00b9d4bf1f00
   - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 93e0dedbb187de74d93df961fc0e0963
