@@ -31,14 +31,16 @@ void Update()
             PlayerController.getSpeed = 0f;
             life -= Time.deltaTime;
             t = Mathf.FloorToInt(life);
-            myText.text = "排出完了まで残り"+t+"秒";
+            //myText.text = "排出完了まで残り"+t+"秒";
+            myText.text = "生物排出中";
             if (life < 1)
             {
                 PlayerController.getSpeed =speed;
                 life = 5f;
                 Livingnum = num;
                 GetLivingnum = num;
-                myText.text = "生き物排出まであと:" + Livingnum + "匹";
+                //myText.text = "生き物排出まであと:" + Livingnum + "匹";
+                myText.text = "";
             }
         }
     }
@@ -49,7 +51,7 @@ void Update()
 
             Livingnum--;
             GetLivingnum = Livingnum;
-            myText.text = "生き物排出まであと:" + Livingnum + "匹";
+            //myText.text = "生き物排出まであと:" + Livingnum + "匹";
         }
     }
 }
