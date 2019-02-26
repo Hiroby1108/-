@@ -11,7 +11,7 @@ public class ResultTextSet : MonoBehaviour{
     GameObject ResultUI_2;
     GameObject ResultUI_22;
     public float life = 10.0f;
-    private int SceneCount;
+    private int SceneCount=0;
     void Start(){
         ResultUI_1 = GameObject.Find("ResultText1");
         ResultUI_11_2 = GameObject.Find("ResultText11_2");
@@ -20,12 +20,16 @@ public class ResultTextSet : MonoBehaviour{
     }
 
     void Update(){
-        life -= Time.deltaTime;
-        if (life < 0){
-            TextTransparence();
-            SceneCount = 1;
-            life = 10.0f;
-            TextDisplay_1();
+        if (SceneCount == 0)
+        {
+            life -= Time.deltaTime;
+            if (life < 0)
+            {
+                TextTransparence();
+                SceneCount = 1;
+                life = 10.0f;
+                TextDisplay_1();
+            }
         }
         if (SceneCount == 1){
             life -= Time.deltaTime;

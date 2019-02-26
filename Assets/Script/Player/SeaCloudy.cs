@@ -7,7 +7,7 @@ public class SeaCloudy : MonoBehaviour
     public GameObject Sea;
     byte g = 142;
     byte b = 0;
-    byte alfa = 180;
+    byte alfa = 150;
     void Start()
     {
     }

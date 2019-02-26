@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class tutorial : MonoBehaviour
 {
     Text myText;
+    Image Panel;
     public GameObject cam;
     bool a = false;
     bool b = false;
@@ -42,7 +43,7 @@ public class tutorial : MonoBehaviour
             if (!a)
             {
                 a = true;
-                Debug.Log("unko");
+               
                 Light();
                 change.GetComponent<ChangeSprite>().changeUtoR();   //左下スプライト変化用
                 i = 1;
@@ -55,8 +56,7 @@ public class tutorial : MonoBehaviour
             {
                 if (!b)
                 {
-                    b = true;
-                    Debug.Log("unko2");
+                    b = true;     
                     Left();
                     change.GetComponent<ChangeSprite>().changeRtoL();   //左下スプライト変化用
                     i = 2;
@@ -70,7 +70,7 @@ public class tutorial : MonoBehaviour
                 if (!c)
                 {
                     c = true;
-                    Debug.Log("unko3");
+               
                     Down();
                     change.GetComponent<ChangeSprite>().changeLtoD();   //左下スプライト変化用
                     i = 3;
@@ -84,7 +84,7 @@ public class tutorial : MonoBehaviour
                 if (!d)
                 {
                     d = true;
-                    Debug.Log("unko4");
+                   
                     change.GetComponent<ChangeSprite>().spriteOff();   //左下スプライト消去用
                     trash();
                 }
@@ -106,10 +106,11 @@ public class tutorial : MonoBehaviour
     void trash()
     {
         myText.text = "ゴミを3個集めてください";
-        Invoke("OutText", 2.0f);
+        Invoke("OutText", 5.0f);
     }
     void OutText()
     {
         myText.GetComponent<Text>().enabled = false;
+        
     }
 }
