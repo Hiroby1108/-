@@ -76,7 +76,7 @@ Material:
     - _WireThickness: 508
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0, g: 1, b: 0, a: 0.41960785}
+    - _Color: {r: 0, g: 1, b: 0, a: 0.23529412}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FillColor: {r: 0, g: 0, b: 0, a: 0}
     - _LineColor: {r: 1, g: 0.9227282, b: 0, a: 1}
