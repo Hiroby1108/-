@@ -20,14 +20,15 @@ public class ResultAllText : MonoBehaviour
         Text uitext = GetComponent<Text>();
         if (TrashAllTotal == 0)
         {
-            num = (int)(ResultTextMyTotal.mytotal * 10);
-            numf += ((float)num) / 1000f;
-            Debug.Log("a" + num);
-            Debug.Log("a" + numf);
-            uitext.text = (numf) + TrashAllTotal + "/311,000,000t";
-            Debug.Log("a" + TrashAllTotal);
+            //num = (int)(ResultTextMyTotal.mytotal * 10);
+            //numf += ((float)num) / 1000f;
+            //Debug.Log("a" + num);
+            //Debug.Log("a" + numf);
             TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
-            Debug.Log("a2_" + TrashAllTotal);
+            uitext.text = /*(numf)*/ + TrashAllTotal + "/311,000,000t";
+            //Debug.Log("a" + TrashAllTotal);
+            //TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
+            //Debug.Log("a2_" + TrashAllTotal);
         }
         else
         {

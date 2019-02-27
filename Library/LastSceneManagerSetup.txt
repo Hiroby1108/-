@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/TimeAttack.unity
-=======
-- path: Assets/Scenes/MissionCoralreefs.unity
->>>>>>> origin/Model2
+- path: Assets/Scenes/Result.unity
   isLoaded: 1
   isActive: 1
