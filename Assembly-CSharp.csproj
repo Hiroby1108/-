@@ -63,6 +63,7 @@
      <Compile Include="Assets\Script\Fade\SceneFade.cs" />
      <Compile Include="Assets\Script\Fade\StoryPanel.cs" />
      <Compile Include="Assets\Script\Fade\TutorialText.cs" />
+     <Compile Include="Assets\Script\FireworkControl.cs" />
      <Compile Include="Assets\Script\GameRule.cs" />
      <Compile Include="Assets\Script\IrukaHead.cs" />
      <Compile Include="Assets\Script\IrukaMove.cs" />
@@ -111,7 +112,6 @@
      <Compile Include="Assets\Script\tutorial\PlayerTutorial.cs" />
      <Compile Include="Assets\Script\tutorial\tutorial.cs" />
      <Compile Include="Assets\Script\tutorial\TutorialDestroy.cs" />
-     <Compile Include="Assets\Sound\FireworkControl.cs" />
      <Compile Include="Assets\Sound\Sound.cs" />
      <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
      <Compile Include="Assets\Wakis\Vacuumer.cs" />
