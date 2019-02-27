@@ -13,21 +13,22 @@ public class ResultAllText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayerPrefs.DeleteKey("SCORE");   //スコア初期化
+        PlayerPrefs.DeleteKey("SCORE");   //スコア初期化
         TrashAllTotal = PlayerPrefs.GetFloat("SCORE", 0);
 
         ResultUI1_3 = GameObject.Find("ResultText1_3");
         Text uitext = GetComponent<Text>();
         if (TrashAllTotal == 0)
         {
-            num = (int)(ResultTextMyTotal.mytotal * 10);
-            numf += ((float)num) / 1000f;
-            Debug.Log("a" + num);
-            Debug.Log("a" + numf);
-            uitext.text = (numf) + TrashAllTotal + "/311,000,000t";
-            Debug.Log("a" + TrashAllTotal);
+            //num = (int)(ResultTextMyTotal.mytotal * 10);
+            //numf += ((float)num) / 1000f;
+            //Debug.Log("a" + num);
+            //Debug.Log("a" + numf);
             TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
-            Debug.Log("a2_" + TrashAllTotal);
+            uitext.text = /*(numf)*/ + TrashAllTotal + "/311,000,000t";
+            //Debug.Log("a" + TrashAllTotal);
+            //TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
+            //Debug.Log("a2_" + TrashAllTotal);
         }
         else
         {
