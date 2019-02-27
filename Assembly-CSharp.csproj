@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\GameRule.cs" />
      <Compile Include="Assets\Script\IrukaHead.cs" />
      <Compile Include="Assets\Script\IrukaMove.cs" />
+     <Compile Include="Assets\Script\IrukaText.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
      <Compile Include="Assets\Script\KameMove.cs" />
