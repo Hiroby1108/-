@@ -66,6 +66,7 @@
      <Compile Include="Assets\Script\IrukaText.cs" />
      <Compile Include="Assets\Script\IrukaTuchJudg.cs" />
      <Compile Include="Assets\Script\ItemGenerat.cs" />
+     <Compile Include="Assets\Script\KameMove.cs" />
      <Compile Include="Assets\Script\KozakanaMove.cs" />
      <Compile Include="Assets\Script\LivingDestroy.cs" />
      <Compile Include="Assets\Script\LookForPlayer.cs" />
@@ -97,6 +98,7 @@
      <Compile Include="Assets\Script\story\EventSystem.cs" />
      <Compile Include="Assets\Script\story\FadeScript.cs" />
      <Compile Include="Assets\Script\story\IrukaTime.cs" />
+     <Compile Include="Assets\Script\story\KameTime.cs" />
      <Compile Include="Assets\Script\story\RuteAreaSet.cs" />
      <Compile Include="Assets\Script\story\story.cs" />
      <Compile Include="Assets\Script\story\StoryScene.cs" />
@@ -108,6 +110,7 @@
      <Compile Include="Assets\Sound\FireworkControl.cs" />
      <Compile Include="Assets\Sound\Sound.cs" />
      <Compile Include="Assets\Wakis\prefabs_Memo.cs" />
+     <Compile Include="Assets\Wakis\Vacuumer.cs" />
      <Compile Include="Assets\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\Water\Water\Scripts\MeshContainer.cs" />
