@@ -25,7 +25,7 @@ public class ResultAllText : MonoBehaviour
             //Debug.Log("a" + num);
             //Debug.Log("a" + numf);
             TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
-            uitext.text = /*(numf)*/ + TrashAllTotal + "/311,000,000t";
+            uitext.text = /*(numf)*/ + TrashAllTotal + "";
             //Debug.Log("a" + TrashAllTotal);
             //TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
             //Debug.Log("a2_" + TrashAllTotal);
@@ -33,7 +33,7 @@ public class ResultAllText : MonoBehaviour
         else
         {
             TrashAllTotal += (ResultTextMyTotal.mytotal / 1000);
-            uitext.text = TrashAllTotal + "/311,000,000t";
+            uitext.text = TrashAllTotal + "";
             Debug.Log("b" + TrashAllTotal);
         }
     }
