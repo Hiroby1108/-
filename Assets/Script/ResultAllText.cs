@@ -13,7 +13,7 @@ public class ResultAllText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.DeleteKey("SCORE");   //スコア初期化
+        //PlayerPrefs.DeleteKey("SCORE");   //スコア初期化
         TrashAllTotal = PlayerPrefs.GetFloat("SCORE", 0);
 
         ResultUI1_3 = GameObject.Find("ResultText1_3");
