@@ -15624,7 +15624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 191, y: 196}
+  m_AnchoredPosition: {x: 191, y: 58}
   m_SizeDelta: {x: 2200, y: 1500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978235653
@@ -22776,12 +22776,12 @@ PrefabInstance:
     - target: {fileID: 2252075049484069410, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: m_Radius
-      value: 0.9
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 2539640218363382620, guid: c5725a0092b8f7e4a906b22ed498696b,
         type: 3}
       propertyPath: m_Radius
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5725a0092b8f7e4a906b22ed498696b, type: 3}
@@ -29030,6 +29030,7 @@ GameObject:
   - component: {fileID: 1746994383}
   - component: {fileID: 1746994385}
   - component: {fileID: 1746994384}
+  - component: {fileID: 1746994386}
   m_Layer: 5
   m_Name: Panel (Description)
   m_TagString: Untagged
@@ -29093,6 +29094,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746994382}
   m_CullTransparentMesh: 0
+--- !u!114 &1746994386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746994382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de4f264017d76e349b50d48dedc183d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1746994384}
+  myText: {fileID: 640683186}
+  p: 10
 --- !u!1001 &1751039062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33189,7 +33205,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 250, y: 194}
+  m_AnchoredPosition: {x: 250, y: 57}
   m_SizeDelta: {x: 500, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022110109
