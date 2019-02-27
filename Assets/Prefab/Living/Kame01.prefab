@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3877635601907859490}
   - component: {fileID: 367884306769980613}
   - component: {fileID: 262258661689201385}
+  - component: {fileID: 1443171080050254419}
   m_Layer: 0
   m_Name: Kame01
   m_TagString: Living
@@ -114,6 +115,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.014093581, y: 0.0036298544, z: 0.017137904}
   m_Center: {x: 0, y: 0.0041783927, z: 0.0016537952}
+--- !u!95 &1443171080050254419
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3877635601907859491}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 4ef5e73a531c7164f8378bbd63e0f516, type: 3}
+  m_Controller: {fileID: 9100000, guid: 2a29ae41c80b79a46bee1184a6b5d443, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3877635603652007242
 GameObject:
   m_ObjectHideFlags: 0
