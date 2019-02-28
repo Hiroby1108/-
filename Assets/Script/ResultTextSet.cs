@@ -12,6 +12,7 @@ public class ResultTextSet : MonoBehaviour{
     GameObject ResultUI_22;
     public float life = 10.0f;
     private int SceneCount=0;
+    public float scene = 7.0f;
     void Start(){
         ResultUI_1 = GameObject.Find("ResultText1");
         ResultUI_11_2 = GameObject.Find("ResultText11_2");
@@ -45,6 +46,11 @@ public class ResultTextSet : MonoBehaviour{
             life -= Time.deltaTime;
             if (life < 0){
                 Debug.Log("ResultFin");
+                scene -= Time.deltaTime;
+            }
+            if (scene < 0)
+            {
+                SceneFade.FadeOut(0);
             }
         }
     }

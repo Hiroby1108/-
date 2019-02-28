@@ -32,7 +32,7 @@ public class CoralMission : MonoBehaviour
     }
     void SceneChange()
     {
-        SceneFade.FadeOut(5);
+        SceneFade.FadeOut(6);
         Debug.Log(NextSceneName);
     }
 }

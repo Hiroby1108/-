@@ -14,13 +14,18 @@ public class TutorialDestroy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myText = GetComponentInChildren<Text>();
+        myText = GameObject.Find("Text1").GetComponentInChildren<Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        myText.text = "※周りの円はエリアを可視化したものです";
+        
+        Invoke("TextChange", 10.0f);
+    }
+    void TextChange()
+    {
+        myText.text = "※周りの円はプレイ可能エリアを可視化したものです";
         Destroy(myText, p);
         Destroy(Panel, p);
     }
