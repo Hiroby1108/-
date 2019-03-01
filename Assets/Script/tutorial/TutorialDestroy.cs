@@ -21,7 +21,7 @@ public class TutorialDestroy : MonoBehaviour
     void Update()
     {
         
-        Invoke("TextChange", 10.0f);
+        Invoke("TextChange", 5.0f);
     }
     void TextChange()
     {

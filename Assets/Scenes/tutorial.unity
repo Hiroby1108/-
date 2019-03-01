@@ -402,6 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2c6dbd303960fa458ee6d4c210bf7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myText: {fileID: 468372948}
+  myText2: {fileID: 1702951855}
   cam: {fileID: 1662939033}
   change: {fileID: 1006500667}
   time: 3
@@ -423,7 +425,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &732028445
 RectTransform:
   m_ObjectHideFlags: 0
@@ -723,7 +725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0.85, y: -43}
+  m_AnchoredPosition: {x: 0.85, y: -6}
   m_SizeDelta: {x: 634.26666, y: 356.86667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1032905113
@@ -1271,6 +1273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59820a2696d49c04ca6eec0b4b2514e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myText2: {fileID: 1702951855}
   NextSceneName: 
   NextSceneNameTurtle: 
   NextSceneNameCoral: 
@@ -1324,7 +1327,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -53}
+  m_AnchoredPosition: {x: 0.000030517578, y: -418}
   m_SizeDelta: {x: 1000, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702951857

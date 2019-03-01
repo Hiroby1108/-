@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class tutorial : MonoBehaviour
 {
-    Text myText;
+    public Text myText;
+    public GameObject myText2;
     Image Panel;
     public GameObject cam;
     bool a = false;
@@ -24,6 +25,7 @@ public class tutorial : MonoBehaviour
     {
         myText = GetComponentInChildren<Text>();
         change = GameObject.Find("Image");  //左下スプライト変化用
+        myText2.SetActive(false);
     }
 
     // Update is called once per frame
@@ -110,6 +112,7 @@ public class tutorial : MonoBehaviour
     }
     void OutText()
     {
+        myText2.SetActive(true);
         myText.GetComponent<Text>().enabled = false;
         
     }
