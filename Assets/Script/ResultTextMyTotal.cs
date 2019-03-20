@@ -9,10 +9,20 @@ public class ResultTextMyTotal : MonoBehaviour
     private int valueP, valueT,valueG, valueB, valueTv, valueTa,num;
     private float numf;
     GameObject ResultUI1_1;
-    public static float mytotal=0f,Allmytotal=0f;
+    public static float mytotal,Allmytotal=0f;
     // Start is called before the first frame update
     void Start()
-    {
+    { 
+        mytotal=0f;
+        num = 0;
+        numf = 0;
+        valueP = 0;
+        valueT = 0;
+        valueG = 0;
+        valueB = 0;
+        valueTv = 0;
+        valueTa = 0;
+
         ResultUI1_1 = GameObject.Find("ResultText1_1");
         Text uitext = GetComponent<Text>();
 

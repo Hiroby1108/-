@@ -16,7 +16,7 @@ public class Scean : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            SceneManager.LoadScene("tutorial");
+            SceneFade.FadeOut(1);
         }
     }
 }
