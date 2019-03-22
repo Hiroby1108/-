@@ -28,6 +28,7 @@ public class PlayeGetItem : MonoBehaviour
         getTrashList()["Biniru(Clone)"]=0;
         getTrashList()["Terebi(Clone)"]=0;
         getTrashList()["Taiya(Clone)"]=0;
+        getTrashList()["Gyomou(masuugu)(Clone)"] = 0;
     }
 
     // Update is called once per frame
