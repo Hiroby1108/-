@@ -17,7 +17,7 @@ public class RandomScene : MonoBehaviour
     void Update()
     {
         if(Event==false)
-        Invoke("RandScene", 5.0f);
+        Invoke("RandScene", 20.0f);
         Event = true;
     }
 
