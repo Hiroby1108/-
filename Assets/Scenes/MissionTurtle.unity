@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &5048053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4260,21 +4260,21 @@ PrefabInstance:
       propertyPath: speed
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 410440038506602485, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_CustomSkybox
       value: 
       objectReference: {fileID: 2100000, guid: 8b1161b6bbfe09740b0e948292a7e4d8, type: 2}
+    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3469074549600703400, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3594595052443578053, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4289,16 +4289,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8033344408154085580, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 642745938828656705, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 642745939151367940, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
@@ -4334,6 +4324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033344408154085580, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f777c6b2f3125934fb224e15a85942c9, type: 3}
@@ -5656,7 +5651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c75a4ba5ead841f40a1d56f50b461645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 15
+  time: 20
 --- !u!1001 &352553463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9757,7 +9752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &565961243
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10623,13 +10618,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30B4\u30DF\u3092\u56DE\u53CE\u3057\u3066\u304F\u3060\u3055\u3044"
+  m_Text: "\u30AB\u30E1\u304C\u73FE\u308C\u308B\u307E\u3067\u30B4\u30DF\u3092\u56DE\u53CE\u3057\u3066\u304F\u3060\u3055\u3044"
 --- !u!222 &640683187
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11745,11 +11740,6 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: f11975ca7be1fcc4bbca0ce4f4fcf7bd, type: 3}
-    - target: {fileID: 6746036193193873790, guid: 94817a88e469cc943a3b33ad84b3224d,
-        type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1819083817293142243, guid: 94817a88e469cc943a3b33ad84b3224d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15676,7 +15666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &976538971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17004,7 +16994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &1035697313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21561,7 +21551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!114 &1303793130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22204,7 +22194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &1327887261
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22559,7 +22549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!65 &1352042525
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29560,7 +29550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172, y: -463}
+  m_AnchoredPosition: {x: 172, y: -421}
   m_SizeDelta: {x: 2300, y: 2200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746994384
@@ -33285,7 +33275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0752284ff7e6d5a47bf553f5eacf280e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  irukaSpeed: 0.15
+  irukaSpeed: 0.25
 --- !u!114 &2007162722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33598,7 +33588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rute: {fileID: 303796545}
-  storyTimer: 40
+  storyTimer: 5
 --- !u!114 &2022110110
 MonoBehaviour:
   m_ObjectHideFlags: 0

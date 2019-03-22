@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ResultTextMyTotal : MonoBehaviour
 {
-    private int valueP, valueT,valueG, valueB, valueTv, valueTa,num;
+    private int valueP=0, valueT=0,valueG=0, valueB=0, valueTv=0, valueTa=0,num=0;
     private float numf;
     GameObject ResultUI1_1;
     public static float mytotal,Allmytotal=0f;
@@ -26,14 +26,15 @@ public class ResultTextMyTotal : MonoBehaviour
         ResultUI1_1 = GameObject.Find("ResultText1_1");
         Text uitext = GetComponent<Text>();
 
-        valueP = PlayeGetItem.getTrashList()["Petbotol(Clone)"];
-        valueT = PlayeGetItem.getTrashList()["tabako(Clone)"];
-        valueG = PlayeGetItem.getTrashList()["Gyomou(Clone)"];
-        valueB = PlayeGetItem.getTrashList()["Biniru(Clone)"];
-        valueTv = PlayeGetItem.getTrashList()["Terebi(Clone)"];
-        valueTa = PlayeGetItem.getTrashList()["Taiya(Clone)"];
         foreach (KeyValuePair<string, int> DictKvp in PlayeGetItem.getTrashList())
         {
+            mytotal = 0;valueP = 0; valueT = 0; valueG = 0; valueB = 0; valueTv = 0; valueTa = 0;num = 0;numf = 0;
+            valueP = PlayeGetItem.getTrashList()["Petbotol(Clone)"];
+            valueT = PlayeGetItem.getTrashList()["tabako(Clone)"];
+            valueG = PlayeGetItem.getTrashList()["Gyomou(Clone)"];
+            valueB = PlayeGetItem.getTrashList()["Biniru(Clone)"];
+            valueTv = PlayeGetItem.getTrashList()["Terebi(Clone)"];
+            valueTa = PlayeGetItem.getTrashList()["Taiya(Clone)"];
             mytotal = float.Parse(Convert.ToString((valueT * 0.000015f) + (valueP * 0.03f)+ (valueG * 5) + (valueB * 0.000015f) +
                                                    (valueTv * 40) + (valueTa * 18)));
             num = (int)(mytotal * 100);

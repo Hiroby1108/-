@@ -22,7 +22,7 @@ public class PlayeGetItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        getTrashList()["Petbotol(Clone)"]=0;
+        getTrashList()[ "Petbotol(Clone)"]=0;
         getTrashList()["tabako(Clone)"]=0;
         getTrashList()["Gyomou(Clone)"]=0;
         getTrashList()["Biniru(Clone)"]=0;
