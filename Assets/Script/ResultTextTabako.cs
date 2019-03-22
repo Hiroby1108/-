@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class ResultTextTabako : MonoBehaviour
 {
-    private int value;
+    private int value=0;
     GameObject ResultUI2_22;
     // Start is called before the first frame update
     void Start()
