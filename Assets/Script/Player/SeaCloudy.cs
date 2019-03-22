@@ -20,7 +20,7 @@ public class SeaCloudy : MonoBehaviour
         {
             if (alfa > 0)
             {
-                if (b < 250)
+                if (g > 5)
                 {
                     g -= 3;
                     b += 5;//画面に少しばかり青みを持たせる

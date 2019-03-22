@@ -20,10 +20,12 @@ public class TrashJudg : MonoBehaviour
     }
     private void OnTriggerEnter(Collider col)
     {
-       
+        
         if (col.gameObject.tag == "Iruka")
         {
-           
+            IrukaTime.count = false;
+            KameTime.count = false;
+            RuteAreaSet.judg = false;
             if (IrukaTuchJudg.Trashnum <= TrashRecovery)
             {
                 //なんかの値に変化させてシーンの読み込みを変えさせる（時間制限で）

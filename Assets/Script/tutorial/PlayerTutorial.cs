@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerTutorial : MonoBehaviour
 {
+    public GameObject myText2;
     Text myText;
     private int i = 0;
     private int x=0;
@@ -41,18 +42,21 @@ public class PlayerTutorial : MonoBehaviour
 
             if(x == 1){
             myText.GetComponent<Text>().enabled = true;
-            myText.text = "チュートリアルは終了です";
+                myText2.SetActive(false);
+                myText.text = "チュートリアルは終了です";
             Invoke("SceneChange", 2.0f);
             }
             if (x == 2)
             {
                 myText.GetComponent<Text>().enabled = true;
+                myText2.SetActive(false);
                 myText.text = "チュートリアルは終了です";
                 Invoke("SceneChangeTurtle", 2.0f);
             }
             if (x == 3)
             {
                 myText.GetComponent<Text>().enabled = true;
+                myText2.SetActive(false);
                 myText.text = "チュートリアルは終了です";
                 Invoke("SceneChangeCoral", 2.0f);
             }
