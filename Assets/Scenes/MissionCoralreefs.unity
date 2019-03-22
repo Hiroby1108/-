@@ -4535,11 +4535,6 @@ PrefabInstance:
       propertyPath: adForce
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 8255427068408076114, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3375389807495250955, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4549,6 +4544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 8255427068408076114, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4501025829617470916, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
@@ -33981,7 +33981,7 @@ PrefabInstance:
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
       propertyPath: limitTime
-      value: 5
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 999863468741668358, guid: 5d49a9f0cab78c241a185fc0448cdfe8,
         type: 3}
