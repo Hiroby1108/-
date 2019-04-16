@@ -6,23 +6,13 @@ using UnityEngine.UI;
 
 public class ResultTextMyTotal : MonoBehaviour
 {
-    private int valueP=0, valueT=0,valueG=0, valueB=0, valueTv=0, valueTa=0,num=0;
-    private float numf;
+    private int valueP=0, valueT=0,valueG=0, valueGm = 0, valueB =0, valueTv=0, valueTa=0,valueU=0,num=0;
+    private float numf=0;
     GameObject ResultUI1_1;
-    public static float mytotal,Allmytotal=0f;
+    public static float mytotal=0,Allmytotal=0f;
     // Start is called before the first frame update
     void Start()
     { 
-        mytotal=0f;
-        num = 0;
-        numf = 0;
-        valueP = 0;
-        valueT = 0;
-        valueG = 0;
-        valueB = 0;
-        valueTv = 0;
-        valueTa = 0;
-
         ResultUI1_1 = GameObject.Find("ResultText1_1");
         Text uitext = GetComponent<Text>();
 
@@ -32,11 +22,13 @@ public class ResultTextMyTotal : MonoBehaviour
             valueP = PlayeGetItem.getTrashList()["Petbotol(Clone)"];
             valueT = PlayeGetItem.getTrashList()["tabako(Clone)"];
             valueG = PlayeGetItem.getTrashList()["Gyomou(Clone)"];
+            valueGm = PlayeGetItem.getTrashList()["Gyomou(masuugu)(Clone)"];
             valueB = PlayeGetItem.getTrashList()["Biniru(Clone)"];
             valueTv = PlayeGetItem.getTrashList()["Terebi(Clone)"];
             valueTa = PlayeGetItem.getTrashList()["Taiya(Clone)"];
-            mytotal = float.Parse(Convert.ToString((valueT * 0.000015f) + (valueP * 0.03f)+ (valueG * 5) + (valueB * 0.000015f) +
-                                                   (valueTv * 40) + (valueTa * 18)));
+            valueTa = PlayeGetItem.getTrashList()["Uki(Clone)"];
+            mytotal = float.Parse(Convert.ToString((valueT * 0.000015f) + (valueP * 0.03f) + (valueG * 5) + (valueGm * 5) + (valueB * 0.000015f) +
+                                                   (valueTv * 40) + (valueTa * 18) + (valueU * 0.019)));
             num = (int)(mytotal * 100);
             numf = (float)num / 100f;
             Debug.Log(num);

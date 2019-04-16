@@ -21,12 +21,12 @@ public class TrashJudg : MonoBehaviour
     private void OnTriggerEnter(Collider col)
     {
         
-        if (col.gameObject.tag == "Iruka")
+        if (col.gameObject.tag == "MissionLiving")
         {
             IrukaTime.count = false;
             KameTime.count = false;
             RuteAreaSet.judg = false;
-            if (IrukaTuchJudg.Trashnum <= TrashRecovery)
+            if (MissionTuchJudg.Trashnum <= TrashRecovery)
             {
                 //なんかの値に変化させてシーンの読み込みを変えさせる（時間制限で）
                 SceneFade.FadeOut(5); //ミッションクリアシーンへ移動

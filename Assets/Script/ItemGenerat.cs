@@ -37,6 +37,9 @@ public class ItemGenerat : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        IrukaTime.count = false;    //MissionLiving（iruka,kame)の発動条件reset
+        KameTime.count = false;
+        RuteAreaSet.judg = false;   //MissionAreaの発動条件reset
         generatEnd = false;
         PlayArea = this.transform.GetChild(0).gameObject;
         SafetyArea = this.transform.GetChild(0).GetChild(0).gameObject;
