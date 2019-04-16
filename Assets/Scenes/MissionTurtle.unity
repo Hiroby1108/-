@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.56452316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1350,19 +1350,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1956580168}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &94151617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94151608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &94151618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3726,19 +3713,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1635954422}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &219354290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 219354281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &219354291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4626,7 +4600,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -4697,6 +4671,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -5682,7 +5681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c75a4ba5ead841f40a1d56f50b461645, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 20
+  time: 15
 --- !u!1001 &352553463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7543,19 +7542,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1063542278}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &453896697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 453896688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &453896698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10442,9 +10428,9 @@ RectTransform:
   m_Father: {fileID: 1003875344}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -199, y: -213}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 201, y: 14}
   m_SizeDelta: {x: 400, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640683186
@@ -10480,7 +10466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30AB\u30E1\u304C\u73FE\u308C\u308B\u307E\u3067\u30B4\u30DF\u3092\u56DE\u53CE\u3057\u3066\u304F\u3060\u3055\u3044"
+  m_Text: "\u30AB\u30E1\u304C\u73FE\u308C\u308B\u307E\u3067\u30B4\u30DF\u3092\n\u56DE\u53CE\u3057\u3066\u304F\u3060\u3055\u3044"
 --- !u!222 &640683187
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13004,19 +12990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f26fdcd31190f646973df9106e7f600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &811372885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 811372874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!1001 &828486115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16876,7 +16849,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -16947,6 +16920,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -17025,19 +17023,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1267858650}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1066621867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066621858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &1066621868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19701,19 +19686,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1353590570}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1228386159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228386150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &1228386160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20487,7 +20459,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -20558,6 +20530,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -22268,7 +22265,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -22339,6 +22336,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -22490,19 +22512,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1597740978}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1376208477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376208468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &1376208478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26283,7 +26292,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -26354,6 +26363,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -26432,19 +26466,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1819626719}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1604502482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604502481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d878278728a17043a9dd54d28e30e56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TrashRecovery: 0
 --- !u!114 &1604502483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26960,7 +26981,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -27031,6 +27052,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -29407,9 +29433,9 @@ RectTransform:
   m_Father: {fileID: 1003875344}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 172, y: -421}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 169, y: 27}
   m_SizeDelta: {x: 2300, y: 2200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746994384
@@ -30104,7 +30130,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -30175,6 +30201,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -32431,7 +32482,7 @@ PrefabInstance:
     - target: {fileID: 3186233664954491022, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Iruka
       objectReference: {fileID: 0}
     - target: {fileID: 7133041314942965914, guid: ba085d49a6fae664493bfda11fcf5cfe,
         type: 3}
@@ -32502,6 +32553,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 39.379757
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442908340856687263, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607005352329647020, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5090495718551152534, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1944253901071323839, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962943538614572890, guid: ba085d49a6fae664493bfda11fcf5cfe,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba085d49a6fae664493bfda11fcf5cfe, type: 3}
@@ -33552,7 +33628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rute: {fileID: 303796545}
-  storyTimer: 5
+  storyTimer: 40
 --- !u!114 &2022110110
 MonoBehaviour:
   m_ObjectHideFlags: 0

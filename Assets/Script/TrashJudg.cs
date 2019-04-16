@@ -29,10 +29,10 @@ public class TrashJudg : MonoBehaviour
             if (IrukaTuchJudg.Trashnum <= TrashRecovery)
             {
                 //なんかの値に変化させてシーンの読み込みを変えさせる（時間制限で）
-                SceneFade.FadeOut(6); //ミッションクリアシーンへ移動
+                SceneFade.FadeOut(5); //ミッションクリアシーンへ移動
                 Debug.Log("成功!!!");
             }else {
-                SceneFade.FadeOut(6); //ミッション失敗シーンへ移動
+                SceneFade.FadeOut(5); //ミッション失敗シーンへ移動
                 Debug.Log("失敗...");
             }
             

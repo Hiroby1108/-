@@ -83,6 +83,7 @@
      <Compile Include="Assets\Script\Player\PlayeGetItem.cs" />
      <Compile Include="Assets\Script\Player\PlayerController.cs" />
      <Compile Include="Assets\Script\Player\SeaCloudy.cs" />
+     <Compile Include="Assets\Script\Player\SpeedUP.cs" />
      <Compile Include="Assets\Script\Player\TrashCounter.cs" />
      <Compile Include="Assets\Script\RandomScene.cs" />
      <Compile Include="Assets\Script\Result\ResultAllText.cs" />
