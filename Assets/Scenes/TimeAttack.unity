@@ -2838,7 +2838,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -4285,26 +4285,6 @@ PrefabInstance:
       propertyPath: adForce
       value: 30
       objectReference: {fileID: 0}
-    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 642745938828656705, guid: f777c6b2f3125934fb224e15a85942c9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3375389807495250955, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
       propertyPath: m_IsTrigger
@@ -4319,6 +4299,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 642745938828656705, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349212757932315291, guid: f777c6b2f3125934fb224e15a85942c9,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6723569752291135006, guid: f777c6b2f3125934fb224e15a85942c9,
         type: 3}
@@ -6021,7 +6021,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -14545,7 +14545,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -22258,7 +22258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1922305390, guid: 03187d3ef73756c4597a367d0f6a114a, type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 1922305398, guid: 03187d3ef73756c4597a367d0f6a114a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27504,7 +27504,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -29134,7 +29134,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -29860,7 +29860,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
@@ -35436,7 +35436,7 @@ PrefabInstance:
     - target: {fileID: 3621087446628911135, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}
       propertyPath: m_TagString
-      value: Iruka
+      value: MissionLiving
       objectReference: {fileID: 0}
     - target: {fileID: 4830203719270565239, guid: 5f5d669e7d1eeec4b846acd21695f6e6,
         type: 3}

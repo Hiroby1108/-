@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IrukaTuchJudg : MonoBehaviour
+public class MissionTuchJudg : MonoBehaviour
 {
     public static int Trashnum;
     // Start is called before the first frame update

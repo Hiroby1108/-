@@ -9,6 +9,7 @@ TagManager:
   - Living
   - Rute
   - Iruka
+  - MissionLiving
   layers:
   - Default
   - TransparentFX
